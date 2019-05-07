@@ -4,6 +4,6 @@
   "list1": "Help",
   "list2": "Contacts",
   "icons": [{"icon": "fas fa-search"}, {"icon": "fas fa-shopping-cart"}, {"icon": "fas fa-user-circle"}],
-  "head-nav": [{"link": "/", "text": "Home"}, {"link": "#", "text": "Blog"}, {"link": "#", "text": "Shop"}, {"link": "#", "text": "Docs"}],
+  "head-nav": [{"link": "/", "text": "Home"}, {"link": "#", "text": "Blog"}],
   "btn": "Buy Now"
 }
