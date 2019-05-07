@@ -1,0 +1,56 @@
+{ 
+  "hero": {
+    "title": "Introducing Front",
+    "sub2": "Attract more visitors, and win more business with Front template.",
+    "btn": "Get Started",
+    "link": "Play video"
+  },
+  "section1": {
+    "sub": "What we do?",
+    "title": "Front makes designing easy and performance fast",
+    "list": [
+      {
+        "icon": "fas fa-pencil-ruler",
+        "icon-bg": "#de44371a",
+        "style": "color: #de4437;",
+        "title": "Professional Design",
+        "sub": "Achieve virtually any design and layout from within the one template."
+      },
+      {
+        "icon": "fas fa-fire",
+        "icon-bg": "#377dff1a",
+        "style": "color: #377dff; font-size: 3.5rem; bottom: -8px; left: 23%;",
+        "title": "Front Strategy",
+        "sub": "We strive to figure out ways to help your business grow through all platforms."
+      },
+      {
+        "icon": "fas fa-cog",
+        "icon-bg": "#00c9a71a",
+        "style": "color: #00c9a7; ",
+        "title": "Unlimited Power",
+        "sub": "Find what you need in one template and combine features at will."
+      }
+    ],
+    "desc": "It is fast and easy.",
+    "desc2": "Create your first and ongoing website with Front.",
+    "img": "images/01.jpg",
+    "note": "We are launching soon. Join the priority list for information and early access."
+  },
+  "section2": {
+    "sub": "Pricing plans",
+    "title": "No additional costs. Pay for what you use.",
+    "desc": "Choose the most suitable service for your needs with reasonable price.",
+    "price": [
+      {
+        "title": "Individual Plan",
+        "amount": "22",
+        "list": [{"text": "Community support"}, {"text": "400+ pages"}, {"text": "100+ header variations"}, {"text": "20+ home page options"}]
+      },
+      {
+        "title": "Enterprise Plan",
+        "amount": "99",
+        "list": [{"text": "24/7 support"}, {"text": "400+ pages"}, {"text": "200+ header variations"}, {"text": "40+ home page options"}, {"text": "E-commerce"}]
+      }
+    ]
+  }
+}
