@@ -39,7 +39,7 @@ $(document).ready(function(){
 
     typingEffect();
 
-    $(".yearly-section").hide();
+    $("#div2").hide();
 
     /* add active class on selected navigation */
     $(".btn-secondary").click(function(){
@@ -47,6 +47,6 @@ $(document).ready(function(){
         $(".btn-secondary").removeClass("active");
         $(this).addClass("active");
         $(".monthly-section").hide();
-        $("#div"+btnId).show();
+        $("#div"+btnId).fadeIn(500);;
     });
 });

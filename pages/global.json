@@ -1,6 +1,6 @@
 { 
   "name": "Front",
-  "logo": "images/dummy-logo.png",
+  "logo": "https://lh3.googleusercontent.com/Qn05ZJ2wuuhpZ_mdGhwEzm5b2oJQKC6rm6CRs32wrFzsdpQ3ip3W74Ecw9eLCJJUdKCm5DRwHZpwqV4AmRBGZNyf",
   "list1": "Help",
   "list2": "Contacts",
   "icons": [{"icon": "fas fa-search"}, {"icon": "fas fa-shopping-cart"}, {"icon": "fas fa-user-circle"}],
