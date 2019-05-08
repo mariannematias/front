@@ -1,0 +1,37 @@
+.play {
+    margin-left: 0;
+    background-color: #fff;
+}
+.play .fas {
+    color: #000;
+    top: 41%;
+    left: 42%;
+}
+.orange-bg {
+    background-image: linear-gradient(150deg, #ffc107 0%, #efa02e 100%);
+    background-repeat: repeat-x;
+}
+.hero-2 {
+    padding-bottom: 8rem;
+    color:#fff;
+}
+#word {
+    color: #1e2022;
+}
+.navbar {
+    background: transparent;
+}
+.head-right-list {
+    margin-top: 0;
+    padding-top: 1rem;
+}
+.navbar-brand span {
+    color: #fff;
+}
+.nav-item,
+.head-right-list li a {
+    color: #ffffffb3;
+}
+.hero-left {
+    padding-top: 4rem;
+}

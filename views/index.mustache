@@ -8,29 +8,28 @@
 
 		{{>header}}
 
-		
 		<section class="hero">
 			<div class="row">
-				<div class="col-md-5 col-sm-12 hero-left">
-					<h1 class="hero-title">{{page.hero.title}}</h1>
-					<p class="hero-sub gray">Your company will look</p>
-					<p class="hero-sub" id="word"></p>
-					<p class="hero-sub blink inline">|</p>
-					<p class="gray">{{page.hero.sub2}}</p>
-					<p class="btn-sub">
-						<button class="btn btn-md btn-started">{{page.hero.btn}}</button>
-						<span class="play"><a href="#"><i class="fas fa-play"></i></a></span>
-						<a href="#">{{page.hero.link}}</a>
-					</p>
-				</div>
-				<div class="col-md-7 hero-right">
-					<p><img src="{{{page.hero.img}}}"></p>
+				<div class="col-md-7 col-sm-12 hero-left">
+					<div class="hero-bg">
+						<div class="hero-content">
+							<h1 class="hero-title">{{page.hero.title}}</h1>
+							<p class="hero-sub">Your company will look</p>
+							<p class="hero-sub" id="word"></p>
+							<p class="hero-sub blink inline">|</p>
+							<p>{{page.hero.sub2}}</p>
+							<p class="btn-sub">
+								<button class="btn btn-md btn-started">{{page.hero.btn}}</button>
+								<span class="play"><a href="#"><i class="fas fa-play"></i></a></span>
+								<a href="#">{{page.hero.link}}</a>
+							</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
 
 		<div class="container">
-
 			<section class="section1">
 				<div class="section-title align-center">
 					<div class="half-width">
@@ -81,7 +80,7 @@
 												<li><span><i class="fas fa-check"></i></span>{{text}}</li>
 											{{/list}}
 										</ul>
-										<p class="align-center">
+										<p class="align-center btn-read">
 											<button class="btn btn-md btn-started">{{page.hero.btn}}</button>
 										</p>
 									</div>
@@ -104,7 +103,7 @@
 												<li><span><i class="fas fa-check"></i></span>{{text}}</li>
 											{{/list}}
 										</ul>
-										<p class="align-center">
+										<p class="align-center btn-read">
 											<button class="btn btn-md btn-started">{{page.hero.btn}}</button>
 										</p>
 									</div>

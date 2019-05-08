@@ -4,7 +4,7 @@
     "sub2": "Attract more visitors, and win more business with Front template.",
     "btn": "Get Started",
     "link": "Play video",
-    "img": "https://lh3.googleusercontent.com/c2V12RlaDkoG-_KlwCJ8Z2KX2HzuxYyFhjTnrPe02JMpwYEhzAfSBOfimrfNTb4xT4UaS9AWb1vS1lN62mcR-d9Szn0"
+    "img": "images/bg1.jpg"
   },
   "section1": {
     "sub": "What we do?",
@@ -43,7 +43,7 @@
     "desc": "Choose the most suitable service for your needs with reasonable price.",
     "price": [
       {
-        "class": "col-md-6 col-sm-12 m-top-1",
+        "class": "col-md-6 col-sm-12",
         "title": "Individual Plan",
         "amount": "22",
         "amount2": "242",

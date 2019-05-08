@@ -94,6 +94,15 @@ h3 {
     width: 50px;
     margin-top: -1rem;
 }
+#navbar-top {
+    display: none;
+}
+#navbar-top .navbar-brand {
+    margin-top: 0;
+}
+.navbar {
+    background: #fff;
+}
 .navbar-brand {
     margin-top: -2rem;
 }
@@ -127,15 +136,31 @@ h3 {
 }
 
 /*** Hero ***/
+.hero {
+    background: url(../images/bg1.jpg);
+    background-size: cover;
+    padding-bottom: 9rem;
+    background-position: center;
+}
+.hero-bg {
+    background: rgba(255,255,255,0.7);
+    padding: 2rem 2.5rem;
+}
+.hero .btn-started {
+    background: #377dff4d;
+}
+.hero .play {
+    background-color: #00c9a74d;
+}
+.hero .hero-sub,
+.hero p {
+    color: #212529;
+}
+
+
 .hero-left {
-    padding-top: 6rem;
-    padding-left: 15rem;
-}
-.hero-right p {
-    text-align: right;
-}
-.hero-right p img {
-    width: 65%;
+    padding-top: 8rem;
+    padding-left: 10rem;
 }
 .hero-title {
     font-size: 3.5rem;
@@ -280,6 +305,7 @@ section {
     border-color: #377dff;
 }
 .price-box {
+    height: 535px;
     position: relative;
     padding-bottom: 2rem;
     background-color: #fff;
@@ -333,6 +359,11 @@ section {
 }
 .price-box .btn-md {
     min-width: 12.5rem;
+}
+.btn-read {
+    bottom: 2rem;
+    position: absolute;
+    left: 20%;
 }
 
 .section3-bg {
@@ -441,10 +472,7 @@ footer {
 
 @media (max-width: 1320px) {
     .hero-left {
-        padding-left: 8rem;
-    }
-    .hero-right p img {
-        width: 75%;
+        padding-left: 6rem;
     }
 }
 

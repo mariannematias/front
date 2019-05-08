@@ -6,7 +6,26 @@
         <li><a href="#"><i class="{{icon}}"></i></a></li>
       {{/global.icons}} 
     </ul>
-    <nav class="navbar sticky-top navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="toggle fas fa-bars"></i>
+            </button>
+            <a class="navbar-brand" href="/">
+                <img class="logo" src="{{{global.logo}}}" class="d-inline-block align-top" alt="">
+                <span>{{global.name}}</span>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+               <div class="navbar-nav ml-auto">
+                    {{#global.head-nav}}
+                        <a class="nav-item nav-link" href="{{link}}">{{text}}</a>
+                    {{/global.head-nav}}
+                    <span><button class="btn btn-sm btn-blue">{{global.btn}}</button></span>
+                </div>         
+            </div>
+        </div>
+    </nav> 
+    <nav class="navbar fixed-top navbar-expand-lg" id="navbar-top">
         <div class="container">
              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="toggle fas fa-bars"></i>
