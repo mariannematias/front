@@ -5,5 +5,30 @@
   "list2": "Contacts",
   "icons": [{"icon": "fas fa-search"}, {"icon": "fas fa-shopping-cart"}, {"icon": "fas fa-user-circle"}],
   "head-nav": [{"link": "/", "text": "Home"}, {"link": "#", "text": "Blog"}],
-  "btn": "Buy Now"
+  "btn": "Buy Now",
+  "footer": {
+    "links": [
+      {
+        "class": "col-md-2 col-sm-4 footer-list",
+        "title": "About",
+        "link": [{"text": "About"}, {"text": "Services"}, {"text": "Careers"}]
+      },
+      {
+        "class": "col-md-2 col-sm-4 footer-list",
+        "title": "Account",
+        "link": [{"text": "Account"}, {"text": "My Tasks"}, {"text": "Project"}]
+      },
+      {
+        "class": "col-md-3 col-sm-4 footer-list",
+        "title": "Resources",
+        "link": [{"text": "Help"}, {"text": "Terms"}, {"text": "Privacy"}]
+      }
+    ],
+    "desc": "We are driven to deliver results for all your businesses.",
+    "btn1": "Download on the",
+    "btn1span": "App Store",
+    "btn2": "Get it on",
+    "btn2span": "Google Play",
+    "copyright": "© Front. 2019 Htmlstream. All rights reserved."
+  }
 }

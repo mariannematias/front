@@ -3,7 +3,8 @@
     "title": "Introducing Front",
     "sub2": "Attract more visitors, and win more business with Front template.",
     "btn": "Get Started",
-    "link": "Play video"
+    "link": "Play video",
+    "img": "images/bg.png"
   },
   "section1": {
     "sub": "What we do?",
@@ -42,14 +43,50 @@
     "desc": "Choose the most suitable service for your needs with reasonable price.",
     "price": [
       {
+        "class": "col-md-6 col-sm-12 m-top-1",
         "title": "Individual Plan",
         "amount": "22",
+        "amount2": "242",
         "list": [{"text": "Community support"}, {"text": "400+ pages"}, {"text": "100+ header variations"}, {"text": "20+ home page options"}]
       },
       {
+        "class": "col-md-6 col-sm-12",
         "title": "Enterprise Plan",
         "amount": "99",
+        "amount2": "189",
         "list": [{"text": "24/7 support"}, {"text": "400+ pages"}, {"text": "200+ header variations"}, {"text": "40+ home page options"}, {"text": "E-commerce"}]
+      }
+    ],
+    "terms": "* Terms are subject to change."
+  },
+  "section3": {
+    "sub": "News & Blog",
+    "title": "Read our latest news",
+    "desc": "Our duty towards you is to share our experience we're reaching in our work path with you.",
+    "list": [
+      {
+        "class1": "align-center list-item",
+        "style": "background: url('images/02.jpg');background-size: cover;",
+        "content": "yes",
+        "title": "How to make trust your competitive advantage",
+        "name": "Neyton Burchie",
+        "img": "images/3.png"
+      },
+      {
+        "class1": "align-center list-item white-bg",
+        "style": "background: #fff",
+        "title": "How to help your team excel at remote collaboration. Here are tips and tools we use on the content team at InVision to keep our remote collaboration game strong. Trust is both a complex and nuanced topic. Its very nature makes it difficult to tackle through direct effort.",
+        "name": "Keith Margaret",
+        "img": "images/4.png",
+        "btn": "Read More"
+      },
+      {
+        "class1": "align-center list-item",
+        "style": "background: url('images/03.jpg');background-size: cover;",
+        "content": "yes",
+        "title": "Remote workers, here's how to dodge distractions",
+        "name": "Neyton Burchie",
+        "img": "images/3.png"
       }
     ]
   }

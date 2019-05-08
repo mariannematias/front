@@ -1,43 +1,35 @@
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta name="description" content="">
-		<meta name="author" content="">
-
-		<title>{{global.name}}</title>
-
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<link href="css/style.css" rel="stylesheet">
-		<link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	{{>head}}
   	</head>
 
 	<body>
 
 		{{>header}}
 
-		<div class="container">
-			<section class="hero">
-				<div class="row">
-					<div class="col-md-5 col-sm-12 hero-left">
-						<h1 class="hero-title">{{page.hero.title}}</h1>
-						<p class="hero-sub gray">Your company will look</p>
-						<p class="hero-sub" id="word"></p>
-                        <p class="hero-sub blink inline">|</p>
-						<p class="gray">{{page.hero.sub2}}</p>
-						<p class="btn-sub">
-							<button class="btn btn-md btn-started">{{page.hero.btn}}</button>
-							<span class="play"><a href="#"><i class="fas fa-play"></i></a></span>
-							<a href="#">{{page.hero.link}}</a>
-						</p>
-					</div>
-					<div class="col-md-7 d-sm-none d-md-block">
-					</div>
+		
+		<section class="hero">
+			<div class="row">
+				<div class="col-md-5 col-sm-12 hero-left">
+					<h1 class="hero-title">{{page.hero.title}}</h1>
+					<p class="hero-sub gray">Your company will look</p>
+					<p class="hero-sub" id="word"></p>
+					<p class="hero-sub blink inline">|</p>
+					<p class="gray">{{page.hero.sub2}}</p>
+					<p class="btn-sub">
+						<button class="btn btn-md btn-started">{{page.hero.btn}}</button>
+						<span class="play"><a href="#"><i class="fas fa-play"></i></a></span>
+						<a href="#">{{page.hero.link}}</a>
+					</p>
 				</div>
-			</section>
+				<div class="col-md-7 hero-right">
+					<p><img src="{{{page.hero.img}}}"></p>
+				</div>
+			</div>
+		</section>
+
+		<div class="container">
 
 			<section class="section1">
 				<div class="section-title align-center">
@@ -58,27 +50,27 @@
 				<div class="half-width align-center">
 					<h3 class="m-top-4">{{page.section1.desc}} <span class="font-normal"> {{page.section1.desc2}}</span></h3>
 				</div>
-				<p class="m-top-2 align-center"><img src="{{page.section1.img}}"></p>
+				<p class="m-top-2 align-center"><img src="{{{page.section1.img}}}"></p>
 				<p class="align-center gray font-small note">{{page.section1.note}}</p>
 			</section>
 
 			<section class="section2 m-top-4">
 				<div class="row">
-					<div class="col-md-4 col-sm-12">
+					<div class="col-lg-4 col-md-12 col-sm-12">
 						<div class="section-title">
 							<p class="sub m-bottom-half"><span>{{page.section2.sub}}</span></p>
 							<h2 class="m-bottom-half">{{page.section2.title}}</h2>
 							<p class="gray">{{page.section2.desc}}</p>
 						</div>
 						<div class="btn-group btn-plan m-top-2" role="group">
-							<button type="button" class="btn btn-secondary active">Monthly</button>
-							<button type="button" class="btn btn-secondary">Yearly</button>
+							<button type="button" class="btn btn-secondary active" id="1">Monthly</button>
+							<button type="button" class="btn btn-secondary" id="2">Yearly</button>
 						</div>
 					</div>
-					<div class="col-md-8 col-sm-12">
+					<div class="col-lg-8 col-md-12 col-sm-12 monthly-section" id="div1">
 						<div class="row">
 							{{#page.section2.price}}
-								<div class="col-md-6 col-sm-12">
+								<div class="{{class}}">
 									<div class="price-box">
 										<div class="head">
 											<h3>{{title}}</h3>
@@ -96,11 +88,70 @@
 								</div>
 							{{/page.section2.price}}
 						</div>
+						<p class="align-center gray font-small note">{{page.section2.terms}}</p>
+					</div>
+					<div class="col-lg-8 col-md-12 col-sm-12 monthly-section" id="div2">
+						<div class="row">
+							{{#page.section2.price}}
+								<div class="{{class}}">
+									<div class="price-box">
+										<div class="head">
+											<h3>{{title}}</h3>
+											<p><span>$</span><span>{{amount2}}</span><span>/month</span></p>
+										</div>
+										<ul class="price-list">
+											{{#list}}
+												<li><span><i class="fas fa-check"></i></span>{{text}}</li>
+											{{/list}}
+										</ul>
+										<p class="align-center">
+											<button class="btn btn-md btn-started">{{page.hero.btn}}</button>
+										</p>
+									</div>
+								</div>
+							{{/page.section2.price}}
+						</div>
+						<p class="align-center gray font-small note">{{page.section2.terms}}</p>
 					</div>
 				</div>
 			</section>
-
 		</div>
+
+		<div class="container-fluid section3-bg">
+			<section class="section3 m-top-4">
+				<div class="section-title align-center">
+					<div class="half-width">
+						<p class="sub m-bottom-half"><span>{{page.section3.sub}}</span></p>
+						<h2 class="m-bottom-half">{{page.section3.title}}</h2>
+						<p class="gray">{{page.section3.desc}}</p>
+					</div>
+				</div>
+
+				<div class="row m-top-4 carousel-list">
+					{{#page.section3.list}}
+					<div class="col-md-4 col-sm-12">
+						<div class="{{class1}}" style="{{style}}">
+							{{#content}}
+							<div class="content">	
+							{{/content}}
+								<p class="slider-title">{{title}}</p>
+								<p class="name"><strong>{{name}}</strong></p>
+								<img src="{{{img}}}">
+								{{#btn}}
+									<p class="m-top-1"><button class="btn btn-md btn-started">{{btn}}</button></p>
+								{{/btn}}
+							{{#content}}
+							</div>
+							{{/content}}
+						</div>
+					</div>
+					{{/page.section3.list}}
+				</div>
+
+			</section>
+		</div>
+
+		{{>footer}}
 
 		<script src="js/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>

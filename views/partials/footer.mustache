@@ -1,0 +1,40 @@
+<footer>
+  <div class="container">
+    <div class="row">
+      {{#global.footer.links}}
+        <div class="{{class}}">
+          <p class="footer-head">{{title}}</p>
+          <ul class="footer-links">
+            {{#link}}
+              <li><a class="gray font-md" href="#">{{text}}</a></li>
+            {{/link}}
+          </ul>
+        </div>
+      {{/global.footer.links}}
+      <div class="col-md-5 col-sm-12">
+        <p class="footer-head">{{global.footer.desc}}</p>
+        <p>
+          <button class="btn btn-md btn-footer">
+            <i class="fab fa-apple"></i>
+            <span class="text">{{global.footer.btn1}}</span>
+            <span class="text2">{{global.footer.btn1span}}</span>
+          </button>
+          <button class="btn btn-md btn-footer">
+            <i class="fab fa-google-play"></i>
+            <span class="text">{{global.footer.btn2}}</span>
+            <span class="text2">{{global.footer.btn2span}}</span>
+          </button>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <div class="container align-center">
+      <p>
+        <img class="logo" src="{{{global.logo}}}">
+        <span>{{global.name}}</span>
+      </p>
+      <p>{{global.footer.copyright}}</p>
+    </div>
+  </div>
+</footer>

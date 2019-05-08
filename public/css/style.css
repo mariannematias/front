@@ -52,6 +52,9 @@ h3 {
 .m-bottom-half {
     margin-bottom: .5rem;
 }
+.m-top-1 {
+    margin-top: 1rem;
+}
 .m-top-2 {
     margin-top: 2rem;
 }
@@ -61,6 +64,10 @@ h3 {
 .font-small {
     font-size: .75rem;
 }
+.font-md {
+    font-size: .9rem;
+}
+
 
 /*** Navbar ***/
 .head-right-list {
@@ -69,7 +76,8 @@ h3 {
 }
 .head-right-list li a:hover,
 .nav-item:hover,
-.btn-sub a:hover {
+.btn-sub a:hover,
+.footer-links li a:hover {
     color: #377dff;
 }
 .head-right-list li {
@@ -121,6 +129,13 @@ h3 {
 /*** Hero ***/
 .hero-left {
     padding-top: 6rem;
+    padding-left: 15rem;
+}
+.hero-right p {
+    text-align: right;
+}
+.hero-right p img {
+    width: 65%;
 }
 .hero-title {
     font-size: 3.5rem;
@@ -174,6 +189,7 @@ h3 {
     width: 60px;
     height: 60px;
     margin-left: 1rem;
+    cursor: pointer;
 }
 .play:hover {
     background-color: #00c9a7;
@@ -270,6 +286,8 @@ section {
     background-clip: border-box;
     border-radius: 0.3rem;
     box-shadow: 0 0 35px rgba(140, 152, 164, 0.125);
+    margin-bottom: 1rem;
+    transition: all .3s ease;
 }
 .price-box .head {
     background-color: #377dff;
@@ -315,4 +333,182 @@ section {
 }
 .price-box .btn-md {
     min-width: 12.5rem;
+}
+
+.section3-bg {
+    background-image: linear-gradient(0deg, #377dff0d 0%, transparent 100%);
+    background-repeat: repeat-x;
+    padding-bottom: 3rem;
+}
+.carousel-list {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slider-title {
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #fff;
+}
+.white-bg .slider-title {
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+.white-bg .slider-title,
+.white-bg .name {
+    color: #1e2022;
+}
+.white-bg .btn-md {
+    min-width: 9rem;
+    padding: .5rem .9rem;
+}
+.list-item {
+    height: 460px;
+    position: relative;
+    padding: 2.5rem;
+    border-radius: 0.3rem;
+    box-shadow: 0 0 35px rgba(140, 152, 164, 0.125);
+}
+.list-item img {
+    width: 60px;
+    margin: auto;
+}
+.content {
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+.name {
+    color: #ffffffb3;
+}
+.slick-prev:before,
+.slick-next:before {
+    color: #377dff;
+}
+
+/*** Footer ***/
+footer {
+    padding: 4rem 0 3rem;
+}
+.footer-head {
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+.footer-links li a {
+    display: block;
+    padding: .2rem 0;
+}
+.btn.btn-footer {
+    text-align: left;
+    color: #fff;
+    background-color: #1e2022;
+    border-color: #1e2022;
+    padding: .3rem .9rem;
+    margin-top: .5rem;
+}
+.btn-footer i {
+    float: left;
+    font-size: 1.5rem;
+    padding-top: .5rem;
+    margin-right: .5rem;
+}
+.btn-footer .text {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+.btn-footer .text2{
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-left: 1rem;
+    display: block;
+}
+.copyright {
+    margin-top: 4rem;
+    border-top: 1px solid #e7eaf3;
+    color: #8c98a4;
+    font-size: .9rem;
+    padding-top: 2rem;
+}
+.copyright p span {
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-left: .5rem;
+    color: #377dff;
+}
+
+@media (max-width: 1320px) {
+    .hero-left {
+        padding-left: 8rem;
+    }
+    .hero-right p img {
+        width: 75%;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        margin-top: 0;
+    }
+    .hero .col-md-5 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .hero {
+        padding: 2rem 2rem;
+    }
+    .hero-left {
+        padding-top: 2rem;
+        padding-left: 2rem;
+    }
+    .hero-right {
+        display: none;
+    }
+    .section1 {
+        margin-top: 5rem;
+    }
+    .half-width {
+        width: 90%;
+        margin: auto;
+    }
+    .list-item {
+        height: 530px;
+        padding: 1rem;
+    }
+    .white-bg .slider-title {
+        font-size: .9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .btn-sub .btn-started {
+        display: block;
+    }
+    .play {
+        margin-left: 0;
+        margin-top: .5rem;
+    }
+    .section1 {
+        margin-top: 3rem;
+    }
+    .section1 p img {
+        width: 90%;
+    }
+    .section1 .note {
+        width: 65%;
+    }
+    .list-item {
+        margin-bottom: .8rem;
+        height: 400px;
+    }    
+    footer .col-sm-4 {
+        width: 33%;
+    }
+    footer .col-sm-12,
+    .footer-list {
+        text-align: center;
+    }
 }
