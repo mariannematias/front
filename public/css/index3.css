@@ -2,6 +2,18 @@
 .nav-item:hover {
     color: #fff;
 }
+.btn-blue {
+    border-color: #fff;
+}
+#navbar-top {
+    background: #fff;
+}
+#navbar-top .nav-item {
+    color: #77838f;
+}
+#navbar-top .navbar-brand span  {
+    color: #377dff;
+}
 .head-right-list {
     margin-top: 0;
     padding-top: .5rem;

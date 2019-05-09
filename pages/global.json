@@ -3,8 +3,7 @@
   "logo": "https://lh3.googleusercontent.com/Qn05ZJ2wuuhpZ_mdGhwEzm5b2oJQKC6rm6CRs32wrFzsdpQ3ip3W74Ecw9eLCJJUdKCm5DRwHZpwqV4AmRBGZNyf",
   "list1": "Help",
   "list2": "Contacts",
-  "icons": [{"icon": "fas fa-search"}, {"icon": "fas fa-shopping-cart"}, {"icon": "fas fa-user-circle"}],
-  "head-nav": [{"link": "/", "text": "Home"}, {"link": "blog", "text": "Blog"}],
+  "head-nav": [{"link": "/", "text": "Home"}, {"link": "blog", "text": "Blog"}, {"link": "#", "text": "Help"}, {"link": "#", "text": "Contacts"}],
   "btn": "Buy Now",
   "footer": {
     "links": [
