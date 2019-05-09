@@ -468,6 +468,62 @@ footer {
     color: #377dff;
 }
 
+.subscribe {
+    background-image: linear-gradient(150deg, #2d1582 0%, #19a0ff 100%);
+    background-repeat: repeat-x;
+    position: relative;
+    padding: 2.5rem 0 9rem;
+    overflow: hidden;
+    margin: 3rem 0 1.5rem;
+}
+.subscribe .mobile {
+    width: 19%;
+    transform: rotate(-20deg);
+    position: absolute;
+    top: 10%;
+    left: 0;
+}
+.subscribe .section-title .sub span {
+    color: #fff;
+}
+.subscribe .section-title h2 {
+    color: #fff;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+.subscribe .section-title .desc {
+    color: #ffffffb3;
+    font-size: 1.2rem;
+}
+.subscribe form {
+    margin-top: 1.5rem;
+}
+.subscribe form input[type="text"] {
+    padding: 1.9rem 1.1rem;
+    font-size: 1.25rem;
+    border-radius: 0.6rem;
+}
+.subscribe form button {
+    color: #1e2022;
+    background-color: #ffc107;
+    border: 0;
+    width: 9rem;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+.subscribe .promo {
+    width: 9rem;
+    border: 1px dashed #ffffffb3;
+    padding: 1rem;
+    color: #ffffffb3;
+    font-size: .8rem;
+    position: absolute;
+    top: 33%;
+    right: 13%;
+    text-align: left;
+}
+
+
 @media (max-width: 1320px) {
     .hero-left {
         padding-left: 6rem;
@@ -490,7 +546,9 @@ footer {
         padding-top: 2rem;
         padding-left: 2rem;
     }
-    .hero-right {
+    .hero-right,
+    .subscribe .mobile,
+    .subscribe .promo {
         display: none;
     }
     .section1 {
@@ -506,6 +564,9 @@ footer {
     }
     .white-bg .slider-title {
         font-size: .9rem;
+    }
+    .subscribe {
+        padding: 2.5rem 0 3rem;
     }
 }
 

@@ -29,5 +29,13 @@
     "btn2": "Get it on",
     "btn2span": "Google Play",
     "copyright": "© Front. 2019 Htmlstream. All rights reserved."
+  },
+  "subscribe": {
+    "sub": "Subscribe",
+    "title": "Stay in the know",
+    "desc": "Get special offers on the latest developments from Front.",
+    "btn": "Join now",
+    "promo": "Be the lucky user to earn $1000 bonus now!",
+    "img": "https://lh3.googleusercontent.com/TScsFprfZ77p9vGKtiAqKi6QrQFUE6v9QDx-jty1hWwN0gV-PzW3d6MQIKKR7KW4FDX5Tg1RQyAhBwLCCnYsviwV_-k"
   }
 }

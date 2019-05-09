@@ -10,7 +10,29 @@
 
 		<div class="container">
 			<div class="row">
-				<div class="col-md-3 col-sm-12 sidebar">
+				<div class="col-md-9 order-md-2 col-sm-12">
+					{{#page.content.list}}
+						<div class="row blog-row">
+							{{#body}}
+								<div class="col-md-6 col-sm-12">
+									<p><img src={{{img}}}></p>
+									<p class="date gray">{{date}}</p>
+									<h3><a href="#">{{title}}</a></h3>
+									<p class="gray">{{sub}}</p>
+								</div>	
+							{{/body}}
+						</div>
+					{{/page.content.list}}
+					<ul class="paging">
+						<li><a href="#">«</a></li>
+						<li><a href="#" class="active">1</a></li>
+						<li><a href="#">2</a></li>
+						<li>...</li>
+						<li><a href="#">12</a></li>
+						<li><a href="#">»</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 order-md-1 col-sm-12 sidebar">
 					<div class="sticky-side">
 						<h3>{{page.sidebar.news.title}}</h3>
 						<ul class="news-list">
@@ -31,22 +53,9 @@
 						</ul>
 					</div>
 				</div>
-				<div class="col-md-9 col-sm-12">
-					{{#page.content.list}}
-						<div class="row blog-row">
-							{{#body}}
-								<div class="col-md-6 col-sm-12">
-									<p><img src={{{img}}}></p>
-									<p class="date gray">{{date}}</p>
-									<h3><a href="#">{{title}}</a></h3>
-									<p class="gray">{{sub}}</p>
-								</div>	
-							{{/body}}
-						</div>
-					{{/page.content.list}}
-				</div>
 			</div>
 		</div>
+		{{>subscribe}}
 		{{>footer}}
 
 		<script src="js/jquery.min.js"></script>

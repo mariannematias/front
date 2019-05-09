@@ -64,3 +64,27 @@ header {
     color: #1e2022;
     margin-bottom: 1rem;
 }
+.paging li {
+    display: inline-block;
+    margin-right: 0.8rem;
+}
+.paging li a {
+    border-radius: 0.3rem;
+    padding: .2rem .8rem;
+    color: #77838f;
+}
+.paging li a.active {
+    color: #fff;
+    background-color: #377dff;
+    border-color: #377dff;
+}
+.paging li a:not(.active):hover {
+    color: #377dff;
+    background: #377dff4d;
+}
+
+@media (max-width: 576px) {
+    .news-list li {
+        margin-bottom: .8rem;
+    }
+}

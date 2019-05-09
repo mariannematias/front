@@ -5,6 +5,7 @@ const router = vertex.router()
 const home = require('../pages/home.json')
 const global = require('../pages/global.json')
 const blog = require('../pages/blog.json')
+const single = require('../pages/single.json')
 
 /*  This is the home route. It renders the index.mustache page from the views directory.
 	Data is rendered using the Mustache templating engine. For more
@@ -39,6 +40,14 @@ router.get('/blog', (req, res) => {
 		global: global
 	}
 	res.render('blog', data)
+})
+
+router.get('/single', (req, res) => {
+	const data = {
+		page: single,
+		global: global
+	}
+	res.render('single', data)
 })
 
 module.exports = router
