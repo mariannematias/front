@@ -1,3 +1,25 @@
-{ 
-  
+{
+    "sidebar": {
+        "news": {
+            "title": "News",
+            "list": [
+                {
+                    "text": "Homemade Clabatta donuts",
+                    "img": "../images/news1.jpg"
+                },
+                {
+                    "text": "Spruce up your coffee table",
+                    "img": "../images/news2.png"
+                },
+                {
+                    "text": "Breating in the crisp air of cozy place",
+                    "img": "../images/news3.jpg"
+                }
+            ]
+        },
+        "tags": {
+            "title": "Tags",
+            "list": [{"text": "Design"}, {"text": "Art"}, {"text": "Graphic"}, {"text": "CSS"}, {"text": "HTML"}, {"text": "SASS"}, {"text": "Wordpress"}]
+        }
+    }
 }

@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
 	{{>head}}
@@ -11,7 +10,23 @@
 
 		<div class="container">
 			<div class="row">
-				<div class="col-md-3 col-sm-12">
+				<div class="col-md-3 col-sm-12 sidebar">
+					<h3>{{page.sidebar.news.title}}</h3>
+					<ul class="news-list">
+						{{#page.sidebar.news.list}}
+							<li>
+								<img src={{{img}}}>
+								<p><a href="#">{{text}}</a></p>
+							</li>
+						{{/page.sidebar.news.list}}
+					</ul>
+					<h3>{{page.sidebar.tags.title}}</h3>
+					<ul class="tag-list">
+						{{#page.sidebar.tags.list}}
+							<li>
+								<a href="#">{{text}}</a>
+							</li>
+						{{/page.sidebar.tags.list}}
 				</div>
 				<div class="col-md-9 col-sm-12">
 				</div>

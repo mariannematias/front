@@ -96,6 +96,7 @@ h3 {
 }
 #navbar-top {
     display: none;
+    border-bottom: 1px solid #ededed;
 }
 #navbar-top .navbar-brand {
     margin-top: 0;
