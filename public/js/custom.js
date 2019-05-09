@@ -49,16 +49,4 @@ $(document).ready(function(){
         $(".monthly-section").hide();
         $("#div"+btnId).fadeIn(500);;
     });
-
-    /* fade in navbar */
-	$(function () {
-		$(window).scroll(function () {
-			if ($(this).scrollTop() > 400) {
-				$('#navbar-top').fadeIn();
-			} else {
-				$('#navbar-top').fadeOut();
-			}
-		});
-	});
-
 });

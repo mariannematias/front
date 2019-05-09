@@ -11,24 +11,39 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3 col-sm-12 sidebar">
-					<h3>{{page.sidebar.news.title}}</h3>
-					<ul class="news-list">
-						{{#page.sidebar.news.list}}
-							<li>
-								<img src={{{img}}}>
-								<p><a href="#">{{text}}</a></p>
-							</li>
-						{{/page.sidebar.news.list}}
-					</ul>
-					<h3>{{page.sidebar.tags.title}}</h3>
-					<ul class="tag-list">
-						{{#page.sidebar.tags.list}}
-							<li>
-								<a href="#">{{text}}</a>
-							</li>
-						{{/page.sidebar.tags.list}}
+					<div class="sticky-side">
+						<h3>{{page.sidebar.news.title}}</h3>
+						<ul class="news-list">
+							{{#page.sidebar.news.list}}
+								<li>
+									<img src={{{img}}}>
+									<p><a href="#">{{text}}</a></p>
+								</li>
+							{{/page.sidebar.news.list}}
+						</ul>
+						<h3>{{page.sidebar.tags.title}}</h3>
+						<ul class="tag-list">
+							{{#page.sidebar.tags.list}}
+								<li>
+									<a href="#">{{text}}</a>
+								</li>
+							{{/page.sidebar.tags.list}}
+						</ul>
+					</div>
 				</div>
 				<div class="col-md-9 col-sm-12">
+					{{#page.content.list}}
+						<div class="row blog-row">
+							{{#body}}
+								<div class="col-md-6 col-sm-12">
+									<p><img src={{{img}}}></p>
+									<p class="date gray">{{date}}</p>
+									<h3><a href="#">{{title}}</a></h3>
+									<p class="gray">{{sub}}</p>
+								</div>	
+							{{/body}}
+						</div>
+					{{/page.content.list}}
 				</div>
 			</div>
 		</div>
@@ -36,7 +51,6 @@
 
 		<script src="js/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
-		<script src="js/custom.js"></script>
-
+		<script src="js/navbar.js"></script>
 	</body>
 </html>

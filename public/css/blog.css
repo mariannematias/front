@@ -2,6 +2,10 @@
 header {
     margin-bottom: 6rem;
 }
+.sticky-side {
+    position: sticky;
+    top: 7rem;
+}
 .sidebar h3 {
     color: #377dff;
     font-weight: 600;
@@ -26,7 +30,8 @@ header {
     color: #1e2022;
     font-weight: 400;
 }
-.news-list li a:hover {
+.news-list li a:hover,
+.blog-row h3 a:hover {
     color: #377dff;
 }
 .tag-list li {
@@ -44,4 +49,18 @@ header {
     border-color: #f8fafd;
     color: #1e2022;
     font-size: .75rem;
+}
+.blog-row {
+    margin-bottom: 4rem;
+}
+.blog-row img {
+    border-radius: 0.3rem;
+}
+.date {
+    font-size: .8rem;
+    margin-top: 2rem;
+}
+.blog-row h3 a {
+    color: #1e2022;
+    margin-bottom: 1rem;
 }
