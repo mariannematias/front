@@ -25,6 +25,14 @@ router.get('/index-2', (req, res) => {
 	res.render('index-2', data)
 })
 
+router.get('/index-3', (req, res) => {
+	const data = {
+		page: home,
+		global: global
+	}
+	res.render('index-3', data)
+})
+
 router.get('/blog', (req, res) => {
 	const data = {
 		page: blog,

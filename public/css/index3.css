@@ -1,0 +1,105 @@
+.head-right-list li a:hover,
+.nav-item:hover {
+    color: #fff;
+}
+.head-right-list {
+    margin-top: 0;
+    padding-top: .5rem;
+}
+.orange-bg {
+    background-image: linear-gradient(164deg, #377dff 59%, #fff calc(59% + 2px));
+    color: #fff;
+    padding-bottom: 5rem;
+}
+.navbar-brand span {
+    color: #fff;
+}
+#word {
+    color: #1e2022;
+}
+.navbar {
+    background: transparent;
+}
+.nav-item,
+.head-right-list li a {
+    color: #ffffffb3;
+}
+.play {
+    margin-left: 0;
+    background-color: #fff;
+}
+.play .fas {
+    color: #000;
+    top: 41%;
+    left: 42%;
+}
+.play:hover {
+    background-color: #fff;
+}
+.play:hover .fas {
+    color: #377dff;
+}
+.hero-right {
+    position: relative;
+}
+.hero-right img {
+    width: 80%;
+    margin-top: 2rem;
+}
+.hero-right .box {
+    box-shadow: 0 0 50px rgba(55, 125, 255, 0.4);
+    border-radius: 0.3125rem;
+    background-color: #377dff;
+    padding: 2rem;
+    color: #fff;
+    width: 20rem;
+    position: absolute;
+    top: 45%;
+    left: 40%;
+}
+.hero-right .box .box-sub{
+    color: #00dffc;
+    margin-top: 1rem;
+}
+.author {
+    margin-top: 1.5rem;
+}
+.author img {
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-top: 0;
+    margin-right: .8rem;
+}
+.author p {
+    color: #f8f9fa;
+    font-weight: 300;
+    font-size: .75rem;
+}
+.author p span {
+    display: block;
+    font-weight: 500;
+    font-size: .85rem;
+}
+
+@media (max-width: 768px) {
+    .hero-right {
+        display: block;
+        text-align: center;
+    }
+    .hero-right .box {
+        top: 49%;
+        left: 48%;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-right img {
+        width: 95%;
+    }
+    .hero-right .box {
+        position: initial;
+        margin: 1rem auto;
+        text-align: left;
+    }
+}

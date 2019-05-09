@@ -1,10 +1,23 @@
 { 
   "hero": {
     "title": "Introducing Front",
+    "sub": "Your company will look",
     "sub2": "Attract more visitors, and win more business with Front template.",
     "btn": "Get Started",
     "link": "Play video",
-    "img": "images/bg1.jpg"
+    "img": "https://lh3.googleusercontent.com/GY5hKhKcW-4QbQp0DuZdR2wqIomu8PAlpeK1beK9VDIxZTkhRaADZu7bmgleZdPswS6zrRRoWTOQ7CuQAMp47Q1l"
+  },
+  "hero2": {
+    "img1": "https://lh3.googleusercontent.com/TScsFprfZ77p9vGKtiAqKi6QrQFUE6v9QDx-jty1hWwN0gV-PzW3d6MQIKKR7KW4FDX5Tg1RQyAhBwLCCnYsviwV_-k",
+    "img2": "https://lh3.googleusercontent.com/Jlamc39KzvMMggDCSrb4JTFX9hQ5_S0sxN5JZSpbNNF38tKHapGevETHg_sn-4nSjxih7oB7ZaI39TX8CShPg92wJQ"
+  },
+  "hero3": {
+    "img1": "https://lh3.googleusercontent.com/WRR8FcgnGyyGzPM4ra98xiWiRrFJ_dWTGD0X4JKMxtvyyZShzjP9kAtCNH39puxIluFTDH6uDaFegssaaGoK0imi",
+    "box": {
+      "title": "Integrate quickly",
+      "sub": "Front lets you spend your development time on product improvements.",
+      "img": "https://lh3.googleusercontent.com/1xwtH8OVcUu0DfvNSWsEsHVbQcTOb3UhTfMhf-rbOvIu9ZO1PllvHM7APTnElrUAiSJFcs7pqvJTYGH94jwPtCR83lY"
+    }
   },
   "section1": {
     "sub": "What we do?",

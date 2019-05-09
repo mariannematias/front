@@ -2,16 +2,16 @@
 <!doctype html>
 <html lang="en">
 	{{>head}}
-	<link href="css/index2.css" rel="stylesheet">
+	<link href="css/index3.css" rel="stylesheet">
   	</head>
 
-	<body class="index-2">
+	<body class="index-3">
 		<div class="orange-bg">
 			{{>header}}
 
-			<section class="hero-2">
+			<section class="hero-3">
 				<div class="row">
-					<div class="col-lg-6 col-md-6 col-sm-12 hero-left">
+					<div class="col-lg-6 col-md-12 col-sm-12 hero-left">
 						<h1 class="hero-title">{{page.hero.title}}</h1>
 						<p class="hero-sub">{{page.hero.sub}}</p>
 						<p class="hero-sub" id="word"></p>
@@ -22,9 +22,16 @@
 							<a href="#">{{page.hero.link}}</a>
 						</p>
 					</div>
-					<div class="image-tilt">
-						<img src="{{{page.hero2.img1}}}">
-						<img src="{{{page.hero2.img2}}}">
+					<div class="col-lg-6 col-md-12 col-sm-12 hero-right">
+						<img src="{{{page.hero3.img1}}}">
+						<div class="box">
+							<h5>{{page.hero3.box.title}}</h5>
+							<p class="box-sub">{{page.hero3.box.sub}}</p>
+							<div class="author">
+								<img src="{{{page.hero3.box.img}}}">
+								<p><span>Raphael Olston</span>Business</p>
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>

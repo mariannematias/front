@@ -1,6 +1,19 @@
+body {
+    overflow-x: hidden;
+}
+.head-right-list li a:hover,
+.nav-item:hover {
+    color: #fff;
+}
 .play {
     margin-left: 0;
     background-color: #fff;
+}
+.play:hover {
+    background-color: #fff;
+}
+.play:hover .fas {
+    color: #377dff;
 }
 .play .fas {
     color: #000;
@@ -10,6 +23,7 @@
 .orange-bg {
     background-image: linear-gradient(150deg, #ffc107 0%, #efa02e 100%);
     background-repeat: repeat-x;
+    position: relative;
 }
 .hero-2 {
     padding-bottom: 8rem;
@@ -34,4 +48,61 @@
 }
 .hero-left {
     padding-top: 4rem;
+}
+.image-tilt {
+    transform: rotate(-17deg);
+    position: absolute;
+    top: 40%;
+    left: 54%;
+}
+.image-tilt img {
+    box-shadow: 0 0 35px rgba(140, 152, 164, 0.125);
+}
+.image-tilt img:last-child {
+    width: 27rem;
+    height: 34rem;
+    position: absolute;
+    top: 0;
+    left: 94%;
+    border-radius: 1rem;
+}
+.image-tilt img:first-child {
+    width: 14rem;
+    height: 28rem;
+    margin-right: 2rem;
+    margin-top: 4rem;
+    border-radius: 1rem;
+}
+
+@media (max-width: 768px) {
+    .hero-left {
+        padding-top: 0;
+    }
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    .hero-left p {
+        font-size: .9rem;
+    }
+    .image-tilt {
+        top: 35%;
+        left: 51%;
+    }
+    .image-tilt img:first-child {
+        width: 10rem;
+        height: 20rem;
+    }
+    .image-tilt img:last-child {
+        width: 22rem;
+        height: 28rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-2 {
+        padding-bottom: 3rem;
+    }
+    .image-tilt {
+        display: none;
+    }
 }
