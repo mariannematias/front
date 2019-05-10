@@ -34,22 +34,6 @@ header {
 .blog-row h3 a:hover {
     color: #377dff;
 }
-.tag-list li {
-    padding-bottom: 1rem;
-    display: inline-block;
-}
-.tag-list:not(:last-child) {
-    margin-right: 0.5rem;
-}
-.tag-list li a {
-    border-radius: 6rem;
-    font-weight: 400;
-    padding: .4rem .9rem;
-    background-color: #f8fafd;
-    border-color: #f8fafd;
-    color: #1e2022;
-    font-size: .75rem;
-}
 .blog-row {
     margin-bottom: 4rem;
 }

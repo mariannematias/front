@@ -1,109 +1,83 @@
 {
-    "sidebar": {
-        "news": {
-            "title": "News",
-            "list": [
-                {
-                    "text": "Homemade Clabatta donuts",
-                    "img": "https://lh3.googleusercontent.com/4DXnodAKk0kGCMcupenEdRdHGlcb8sSgOy1fJ3SXunJfswKt8N3YP6nNFw6_PaEZ54TCgszP57HhGtOlB-IS66ds3t8"
-                },
-                {
-                    "text": "Spruce up your coffee table",
-                    "img": "https://lh3.googleusercontent.com/Gh-_0bVbKUlDwHxoMmHtxk1yXZauMflNJkmgub8p2_n2dLkiAM-iNOiWjlu3MDzlo88xB8d8dlKwylpnX5H1GvazFw"
-                },
-                {
-                    "text": "Breathing in the crisp air of cozy place",
-                    "img": "https://lh3.googleusercontent.com/4MdiKC-5GccAbHgho69iaHVbbjt_tqm1an8ZXEwiEUOqGwnb59ZShHzmxe-ufe6ruUao9adGBMNifz5RU4SFP7iL"
-                }
-            ]
-        },
-        "tags": {
-            "title": "Tags",
-            "list": [{"text": "Design"}, {"text": "Art"}, {"text": "Graphic"}, {"text": "CSS"}, {"text": "HTML"}, {"text": "SASS"}, {"text": "Wordpress"}]
-        }
+    "hero": {
+        "title": "Announcing a free plan for small teams",
+        "img": "https://lh3.googleusercontent.com/hQBPIOEUYRxC-INISL7nltCH6pTDy89q6lVPmVEar6SfRabK6kVWzAM4ABt_1IpaXNcLCPuNoPdiKmvi_IrJ2JcZ",
+        "name": "Andrea Gard"
     },
-    "content": {
-        "list": [
-            {
-                "body": [
-                    {
-                        "img": "https://lh3.googleusercontent.com/2gbfm7XNjnUehHCeVRHOqVw7HThx-W8x548tdsPNnGTmeCHorLnGcvgEvHciJwO-x91X5JhG-K57rJ_ZArq4v1UfYQ",
-                        "date": "March 20, 2018",
-                        "title": "Remote workers, here's how to dodge distractions",
-                        "sub": "We've been working hard with our besties at Reuters to design a new reading experience for Reuters.com."
-                    },
-                    {
-                        "img": "https://lh3.googleusercontent.com/gBE6MwvDSxQTvfleSabnZMcCX2UqQiKREmhMcoCZIagw5jcc2WAGgWJhKo-nKp1lyU_VsI_mhkAvbA-crL6D2YLYpA",
-                        "date": "April 29, 2018",
-                        "title": "5 basic tips for colors",
-                        "sub": "Tis the season to be jolly, and Ueno has one more thing to be cheery about in 2017."
-                    }
-                ]
-            },
-            {
-                "body": [
-                    {
-                        "img": "https://lh3.googleusercontent.com/apQjrqG4k4sfclthrFHQFsTOreaGAJQIvwwYulGm_omM3_uNil0FC7vHq40fb5b_S0-xqcGmpLevBTPLILz2TBwq",
-                        "date": "March 20, 2018",
-                        "title": "How to change careers or start a home-based business?",
-                        "sub": "The biggest collections of design principles on the internet"
-                    },
-                    {
-                        "img": "https://lh3.googleusercontent.com/6H8JAP7X5xsCkbgvD44vxeXYryGlyt6OwhebyFMUow1Ou-PmhyTaKuQG7TSgdjvCIaPoN9GdsoZJO-6wV7I4mwVZyw",
-                        "date": "April 1, 2018",
-                        "title": "Create your adventure",
-                        "sub": "Everyone's are different, and they can even change"
-                    }
-                ]
-            },
-            {
-                "body": [
-                    {
-                        "img": "https://lh3.googleusercontent.com/zukpat7vVgxCR2VUBsq8L3id-YIS5yFj8u6eDsNHOFphTANMhntxboq5m4b4795bi_W1Ii-duJyC9JldfrLR9Of7qQ",
-                        "date": "March 18, 2018",
-                        "title": "Announcing a free plan for small teams",
-                        "sub": "The past years have been remarkable for web technologies."
-                    },
-                    {
-                        "img": "https://lh3.googleusercontent.com/caaM46XGgO1_BGuinTPX3m1lXMJ5du216FM8aTk3bWfAp4RAOEDeO9k-9SQbeXKIsBKcDHbX4QvNcwpQ8i4rl6h7iTE",
-                        "date": "March 18, 2018",
-                        "title": "How to make trust your competitive advantage",
-                        "sub": "Tips and tricks that most people wouldn't highlight when illustrating."
-                    }
-                ]
-            },
-            {
-                "body": [
-                    {
-                        "img": "https://lh3.googleusercontent.com/uRJFK4JIKMFsps8zKol0gIhTcn22_3nD3jlSfteMr6PowR_UYnOWDfKYzJ8a-rJWVLUbnueV2nAFaEfoR7pRzuTEpQ0",
-                        "date": "April 29, 2018",
-                        "title": "Classic design principles",
-                        "sub": "Sailing here was a surreal experience. The light fog snaked its way through the valley, but still let the sun warm our backs."
-                    },
-                    {
-                        "img": "https://lh3.googleusercontent.com/d_oTeD79kVAY1NhN4EeRBOTtl9xXl36x2s5TLiw4Cf94bjCK3skYFumGF2fGeKpT71zaPGi0dWgYKwwMIkVBhv97DrI",
-                        "date": "April 1, 2018",
-                        "title": "InVision design forward fund",
-                        "sub": "Fewer bumps in the road: ClearMotion is a new technology that does to your ride what noise cancelling does to your headphones."
-                    }
-                ]
-            },
-            {
-                "body": [
-                    {
-                        "img": "https://lh3.googleusercontent.com/NASg_qy9shdvSPKS0ff03_ERpXkKphq51Z5iqoU4oXSQO5Dxy2Q8LAO04FJWNSjB_2MkbkrdXGL5nXdjdhYESwWHVA",
-                        "date": "April 1, 2018",
-                        "title": "Smartbtc sees the need for contracts",
-                        "sub": "Guess what. We're sponsoring the February edition of CreativeMornings/New York."
-                    },
-                    {
-                        "img": "https://lh3.googleusercontent.com/66o_G2xU8hQa5Tyy0DGnLTBJjtqacQdfYhbSdNxcm9x1-GCABxGpLfmB2Dl4eyzs9ykz4rd18R4VhleDFa7Z9NAzzEo",
-                        "date": "April 1, 2018",
-                        "title": "We're cultured",
-                        "sub": "It's nice to win awards. Last night, the Ueno team in Reykjavík came home from the Icelandic Web Awards."
-                    }
-                ]
-            }
-        ]
-    }
+    "body": [
+        {
+            "text": "April 15, 2018"
+        },
+        {
+            "text": "At Front, our mission has always been focused on bringing openness and transparency to the design process. We've always believed that by providing a space where designers can share ongoing work not only empowers them to make better products, it also helps them grow. We're proud to be a part of creating a more open culture and to continue building a product that supports this vision."
+        },
+        {
+            "text": "As we've grown, we've seen how Front has helped companies such as Spotify, Microsoft, Airbnb, Facebook, and Intercom bring their designers closer together to create amazing things. We've also learned that when the culture of sharing is brought in earlier, the better teams adapt and communicate with one another."
+        },
+        {
+            "text": "That's why we are excited to share that we now have a free version of Front, which will allow individual designers, startups and other small teams a chance to create a culture of openness early on."
+        }
+    ],
+    "sub1": "Bringing the culture of sharing to everyone.",
+    "body2": "Small teams and individual designers need a space where they can watch the design process unfold, both for themselves and for the people they work with – no matter if it's a fellow designer, product manager, developer or client. Front allows you to invite more people into the process, creating a central place for conversation around design. As those teams grow, transparency and collaboration becomes integrated in how they communicate and work together.",
+    "body3": [
+        {
+            "text": "'Front allows us to collaborate in real time and is a really great way for leadership on the team to stay up-to-date with what everybody is working on,' said Stewart Scott-Curran, Intercom's Director of Brand Design."
+        },
+        {
+            "text": "We know the power of sharing is real, and we want to create an opportunity for everyone to try Front and explore how transformative open communication can be. Now you can have a team of one or two designers and unlimited spectators (think PMs, management, marketing, etc.) share work and explore the design process earlier."
+        },
+        {
+            "text": "'Front opened a new way of sharing. It's a persistent way for everyone to see and absorb each other's work,' said David Scott, Creative Director at Eventbrite."
+        }
+    ],
+    "slider": [
+        {
+            "img": "https://lh3.googleusercontent.com/caaM46XGgO1_BGuinTPX3m1lXMJ5du216FM8aTk3bWfAp4RAOEDeO9k-9SQbeXKIsBKcDHbX4QvNcwpQ8i4rl6h7iTE"
+        },
+        {
+            "img": "https://lh3.googleusercontent.com/6H8JAP7X5xsCkbgvD44vxeXYryGlyt6OwhebyFMUow1Ou-PmhyTaKuQG7TSgdjvCIaPoN9GdsoZJO-6wV7I4mwVZyw"
+        },
+        {
+            "img": "https://lh3.googleusercontent.com/zukpat7vVgxCR2VUBsq8L3id-YIS5yFj8u6eDsNHOFphTANMhntxboq5m4b4795bi_W1Ii-duJyC9JldfrLR9Of7qQ"
+        },
+        {
+            "img": "https://lh3.googleusercontent.com/gBE6MwvDSxQTvfleSabnZMcCX2UqQiKREmhMcoCZIagw5jcc2WAGgWJhKo-nKp1lyU_VsI_mhkAvbA-crL6D2YLYpA"
+        },
+        {
+            "img": "https://lh3.googleusercontent.com/apQjrqG4k4sfclthrFHQFsTOreaGAJQIvwwYulGm_omM3_uNil0FC7vHq40fb5b_S0-xqcGmpLevBTPLILz2TBwq"
+        },
+        {
+            "img": "https://lh3.googleusercontent.com/2gbfm7XNjnUehHCeVRHOqVw7HThx-W8x548tdsPNnGTmeCHorLnGcvgEvHciJwO-x91X5JhG-K57rJ_ZArq4v1UfYQ"
+        }
+    ],
+    "testi": {
+        "text": "The template is really nice and offers quite a large set of options. It's beautiful and the coding is done quickly and seamlessly. Thank you!",
+        "name": "Maria Muszynska",
+        "img": "https://lh3.googleusercontent.com/hQBPIOEUYRxC-INISL7nltCH6pTDy89q6lVPmVEar6SfRabK6kVWzAM4ABt_1IpaXNcLCPuNoPdiKmvi_IrJ2JcZ"
+    },
+    "tags": [{"text": "Business"}, {"text": "Start-up"}, {"text": "Plan"}],
+    "icons": [{"icon": "fab fa-facebook-f"}, {"icon": "fab fa-google"}, {"icon": "fab fa-twitter"}, {"icon": "fab fa-pinterest"}, {"icon": "fab fa-telegram-plane"}, {"icon": "fab fa-slack"}, {"icon": "fab fa-github"}],
+    "author": {
+        "name": "Andrea Gard",
+        "sub": "Best Author of the year Award Winner.",
+        "desc": "Andrea Gard is the author of two story collections and two novels, most recently Eat Only When You're Hungry. She lives in Chicago."
+    },
+    "posts": [
+        {
+            "img": "https://lh3.googleusercontent.com/2gbfm7XNjnUehHCeVRHOqVw7HThx-W8x548tdsPNnGTmeCHorLnGcvgEvHciJwO-x91X5JhG-K57rJ_ZArq4v1UfYQ",
+            "title": "Remote workers, here's how to dodge distractions",
+            "date": "March 20, 2018"
+        },
+        {
+            "img": "https://lh3.googleusercontent.com/caaM46XGgO1_BGuinTPX3m1lXMJ5du216FM8aTk3bWfAp4RAOEDeO9k-9SQbeXKIsBKcDHbX4QvNcwpQ8i4rl6h7iTE",
+            "title": "How to make trust your competitive advantage",
+            "date": "March 18, 2018"
+        },
+        {
+            "img": "https://lh3.googleusercontent.com/apQjrqG4k4sfclthrFHQFsTOreaGAJQIvwwYulGm_omM3_uNil0FC7vHq40fb5b_S0-xqcGmpLevBTPLILz2TBwq",
+            "title": "How to change careers or start a home-based business?",
+            "date": "March 20, 2018"
+        }
+    ]
 }
