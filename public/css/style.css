@@ -135,14 +135,9 @@ h3 {
 
 /*** Hero ***/
 .hero {
-    background: url(../images/bg1.jpg);
-    background-size: cover;
-    padding-bottom: 9rem;
+    padding-bottom: 16rem;
     background-position: center;
-}
-.hero-bg {
-    background: rgba(255,255,255,0.7);
-    padding: 2rem 2.5rem;
+    position: relative;
 }
 .hero .btn-started {
     background: #377dff4d;
@@ -154,8 +149,6 @@ h3 {
 .hero p {
     color: #212529;
 }
-
-
 .hero-left {
     padding-top: 8rem;
     padding-left: 10rem;
@@ -230,6 +223,18 @@ h3 {
     padding-left: .5rem;
     color: #1e2022;
 }
+.img-right img {
+    position: absolute;
+    top: -10%;
+    right: 0;
+    left: 95%;
+    width: 675px;
+    height: 615px;
+    z-index: 1;
+}
+.img-right img:first-child {
+    height: 615px;
+}
 
 /*** Sections ***/
 section {
@@ -253,32 +258,15 @@ section {
     line-height: 1.5;
 }
 .section1 {
-    margin-top: 12rem;
+    margin-top: 8rem;
 }
 .section1-list div p:first-child {
     margin-bottom: 2rem;
 }
-.section1-list p span {
-    display: inline-block;
-    position: relative;
-    display: inline-block;
-    vertical-align: middle;
-    text-align: center;
-    color: #de4437;
-    border-color: transparent;
-    font-size: 0.8125rem;
-    border-radius: 50%;
-    width: 80px;
-    height: 80px;
-    margin-left: 1rem;
+.section1-list p img {
+    width: 110px;
 }
-.section1-list p span .fas {
-    position: absolute;
-    left: 20%;
-    bottom: -9px;
-    font-size: 3rem;
-}
-.section1 p img {
+.section1 .m-top-2 img {
     width: 70%;
 }
 .section1 .note {
@@ -301,6 +289,9 @@ section {
     color: #fff;
     background-color: #377dff;
     border-color: #377dff;
+}
+.price-left {
+    padding-right: 6rem;
 }
 .price-box {
     height: 535px;
@@ -374,7 +365,7 @@ section {
     margin-left: auto;
     margin-right: auto;
 }
-.slider-title {
+.slider-title a {
     font-weight: 500;
     font-size: 1.5rem;
     color: #fff;
@@ -384,6 +375,9 @@ section {
     font-size: 1rem;
     margin-top: 1rem;
     margin-bottom: 1.5rem;
+    width: 80%;
+    margin: auto;
+    padding: 2rem 0 3rem;
 }
 .white-bg .slider-title,
 .white-bg .name {
@@ -405,6 +399,7 @@ section {
     margin: auto;
 }
 .content {
+    width: 100%;
     position: absolute;
     left: 0;
     bottom: 3rem;
@@ -546,6 +541,9 @@ footer {
 }
 
 @media (max-width: 768px) {
+    .img-right {
+        display: none;
+    }
     .navbar-brand {
         margin-top: 0;
     }
@@ -586,6 +584,9 @@ footer {
 }
 
 @media (max-width: 576px) {
+    .hero-left {
+        padding-left: 0;
+    }
     .btn-sub .btn-started {
         display: block;
     }

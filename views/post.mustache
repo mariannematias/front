@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+	{{>head}}
+	<link href="/css/single.css" rel="stylesheet">
+				
+  	</head>
+
+	<body>
+
+		{{>header}}
+
+		<section class="hero-single" style="background-image: url({{post.image}}=s1080">
+			<div class="container align-center">
+				<h1>{{post.title}}</h1>
+			</div>
+		</section>
+
+		<div class="container">
+			<div class="post-body gray">
+				<p>{{post.dateString}}</p>
+				{{{post.text}}}
+			</div>
+		</div>
+
+		{{>subscribe}}
+		{{>footer}}
+
+		{{>scripts}}
+	</body>
+</html>

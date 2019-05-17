@@ -1,106 +1,70 @@
 { 
-  "hero": {
+  "hero_section": {
     "title": "Introducing Front",
-    "sub": "Your company will look",
-    "sub2": "Attract more visitors, and win more business with Front template.",
-    "btn": "Get Started",
-    "link": "Play video",
-    "img": "https://lh3.googleusercontent.com/GY5hKhKcW-4QbQp0DuZdR2wqIomu8PAlpeK1beK9VDIxZTkhRaADZu7bmgleZdPswS6zrRRoWTOQ7CuQAMp47Q1l"
-  },
-  "hero2": {
-    "img1": "https://lh3.googleusercontent.com/TScsFprfZ77p9vGKtiAqKi6QrQFUE6v9QDx-jty1hWwN0gV-PzW3d6MQIKKR7KW4FDX5Tg1RQyAhBwLCCnYsviwV_-k",
-    "img2": "https://lh3.googleusercontent.com/Jlamc39KzvMMggDCSrb4JTFX9hQ5_S0sxN5JZSpbNNF38tKHapGevETHg_sn-4nSjxih7oB7ZaI39TX8CShPg92wJQ"
-  },
-  "hero3": {
-    "img1": "https://lh3.googleusercontent.com/WRR8FcgnGyyGzPM4ra98xiWiRrFJ_dWTGD0X4JKMxtvyyZShzjP9kAtCNH39puxIluFTDH6uDaFegssaaGoK0imi",
-    "box": {
-      "title": "Integrate quickly",
-      "sub": "Front lets you spend your development time on product improvements.",
-      "img": "https://lh3.googleusercontent.com/1xwtH8OVcUu0DfvNSWsEsHVbQcTOb3UhTfMhf-rbOvIu9ZO1PllvHM7APTnElrUAiSJFcs7pqvJTYGH94jwPtCR83lY"
-    }
+    "subtitle": "Your company will look",
+    "subtitle2": "Attract more visitors, and win more business with Front template.",
+    "btn_text": "Get Started",
+    "link_text": "Play video",
+    "link_video": "",
+    "img_hero": "https://lh3.googleusercontent.com/W1bzXUeQ_--Jnn1UqKkeNXWuAtBMV4N-J7M1dx2Litxpb9iYKLJqAZitVX7ourr2w7szI8gClgj7FmvHTIwT40MLw-A"
   },
   "section1": {
-    "sub": "What we do?",
+    "subheader": "What we do?",
     "title": "Front makes designing easy and performance fast",
-    "list": [
-      {
-        "icon": "fas fa-pencil-ruler",
-        "icon-bg": "#de44371a",
-        "style": "color: #de4437;",
+    "lists": {
+      "list1": {
         "title": "Professional Design",
-        "sub": "Achieve virtually any design and layout from within the one template."
+        "subtitle": "Achieve virtually any design and layout from within the one template."
       },
-      {
-        "icon": "fas fa-fire",
-        "icon-bg": "#377dff1a",
-        "style": "color: #377dff; font-size: 3.5rem; bottom: -8px; left: 23%;",
+      "list2": {
         "title": "Front Strategy",
-        "sub": "We strive to figure out ways to help your business grow through all platforms."
+        "subtitle": "We strive to figure out ways to help your business grow through all platforms."
       },
-      {
-        "icon": "fas fa-cog",
-        "icon-bg": "#00c9a71a",
-        "style": "color: #00c9a7; ",
+      "list3": {
         "title": "Unlimited Power",
-        "sub": "Find what you need in one template and combine features at will."
+        "subtitle": "Find what you need in one template and combine features at will."
       }
-    ],
-    "desc": "It is fast and easy.",
-    "desc2": "Create your first and ongoing website with Front.",
-    "img": "https://lh3.googleusercontent.com/tvbTMd6NmmHDM6JbmvtHD_rN5c8s1UE7nRXwP3CJ5biKp45OAtqn-3YXySbAvSA2anUxnbFN6DQG4FeGFzHqK9vn=s2048",
+    },
+    "description": "It is fast and easy.",
+    "description2": "Create your first and ongoing website with Front.",
+    "img_section": "https://lh3.googleusercontent.com/tvbTMd6NmmHDM6JbmvtHD_rN5c8s1UE7nRXwP3CJ5biKp45OAtqn-3YXySbAvSA2anUxnbFN6DQG4FeGFzHqK9vn=s2048",
     "note": "We are launching soon. Join the priority list for information and early access."
   },
   "section2": {
-    "sub": "Pricing plans",
+    "subheader": "Pricing plans",
     "title": "No additional costs. Pay for what you use.",
-    "desc": "Choose the most suitable service for your needs with reasonable price.",
-    "price": [
-      {
-        "class": "col-md-6 col-sm-12",
+    "description": "Choose the most suitable service for your needs with reasonable price.",
+    "prices": {
+      "price1": {
         "title": "Individual Plan",
         "amount": "22",
-        "amount2": "242",
-        "list": [{"text": "Community support"}, {"text": "400+ pages"}, {"text": "100+ header variations"}, {"text": "20+ home page options"}]
+        "list": [{"text": "Community support"}, {"text": "400+ pages"}, {"text": "100+ header variations"}, {"text": "20+ home page options"}],
+        "btn_text": "Get started"
       },
-      {
-        "class": "col-md-6 col-sm-12",
+      "price2": {
         "title": "Enterprise Plan",
         "amount": "99",
-        "amount2": "189",
-        "list": [{"text": "24/7 support"}, {"text": "400+ pages"}, {"text": "200+ header variations"}, {"text": "40+ home page options"}, {"text": "E-commerce"}]
+        "list": [{"text": "24/7 support"}, {"text": "400+ pages"}, {"text": "200+ header variations"}, {"text": "40+ home page options"}, {"text": "E-commerce"}],
+        "btn_text": "Get started"
       }
-    ],
+    },
     "terms": "* Terms are subject to change."
   },
   "section3": {
-    "sub": "News & Blog",
+    "subheader": "News & Blog",
     "title": "Read our latest news",
-    "desc": "Our duty towards you is to share our experience we're reaching in our work path with you.",
-    "list": [
-      {
-        "class1": "align-center list-item",
-        "style": "background: url('https://lh3.googleusercontent.com/nQKNPIc-SAmRTJGvg2iRwz0u3sklZH95I654NCMcsvwMdQugytXT6CPljp0H50TD5e521WidjpryVd6_JD_y-lGrBw');background-size: cover;",
-        "content": "yes",
-        "title": "How to make trust your competitive advantage",
-        "name": "Neyton Burchie",
-        "img": "https://lh3.googleusercontent.com/1xwtH8OVcUu0DfvNSWsEsHVbQcTOb3UhTfMhf-rbOvIu9ZO1PllvHM7APTnElrUAiSJFcs7pqvJTYGH94jwPtCR83lY"
-      },
-      {
-        "class1": "align-center list-item white-bg",
-        "style": "background: #fff",
-        "title": "How to help your team excel at remote collaboration. Here are tips and tools we use on the content team at InVision to keep our remote collaboration game strong. Trust is both a complex and nuanced topic. Its very nature makes it difficult to tackle through direct effort.",
-        "name": "Keith Margaret",
-        "img": "https://lh3.googleusercontent.com/hQBPIOEUYRxC-INISL7nltCH6pTDy89q6lVPmVEar6SfRabK6kVWzAM4ABt_1IpaXNcLCPuNoPdiKmvi_IrJ2JcZ",
-        "btn": "Read More"
-      },
-      {
-        "class1": "align-center list-item",
-        "style": "background: url('https://lh3.googleusercontent.com/6n7_tXXWco-UHVpBv5DTsfTsqiNQOyXhpb7WWM7cqQv-NjDWSIDlflzgDNTkS3DAUpulQi-lBIgdYnOTdoSSgFUcjcA');background-size: cover;",
-        "content": "yes",
-        "title": "Remote workers, here's how to dodge distractions",
-        "name": "Neyton Burchie",
-        "img": "https://lh3.googleusercontent.com/1xwtH8OVcUu0DfvNSWsEsHVbQcTOb3UhTfMhf-rbOvIu9ZO1PllvHM7APTnElrUAiSJFcs7pqvJTYGH94jwPtCR83lY"
-      }
-    ]
+    "description": "Our duty towards you is to share our experience we're reaching in our work path with you."
+  },
+  "hero_index2": {
+    "img_mobile": "https://lh3.googleusercontent.com/TScsFprfZ77p9vGKtiAqKi6QrQFUE6v9QDx-jty1hWwN0gV-PzW3d6MQIKKR7KW4FDX5Tg1RQyAhBwLCCnYsviwV_-k",
+    "img_tablet": "https://lh3.googleusercontent.com/Jlamc39KzvMMggDCSrb4JTFX9hQ5_S0sxN5JZSpbNNF38tKHapGevETHg_sn-4nSjxih7oB7ZaI39TX8CShPg92wJQ"
+  },
+  "hero_index3": {
+    "img_hero": "https://lh3.googleusercontent.com/WRR8FcgnGyyGzPM4ra98xiWiRrFJ_dWTGD0X4JKMxtvyyZShzjP9kAtCNH39puxIluFTDH6uDaFegssaaGoK0imi",
+    "box": {
+      "title": "Integrate quickly",
+      "sub": "Front lets you spend your development time on product improvements.",
+      "img_box": "https://lh3.googleusercontent.com/1xwtH8OVcUu0DfvNSWsEsHVbQcTOb3UhTfMhf-rbOvIu9ZO1PllvHM7APTnElrUAiSJFcs7pqvJTYGH94jwPtCR83lY"
+    }
   }
 }

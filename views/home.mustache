@@ -2,16 +2,16 @@
 <!doctype html>
 <html lang="en">
 	{{>head}}
-	<link href="/css/index3.css" rel="stylesheet">
   	</head>
 
-	<body class="index-3">
-		<div class="orange-bg">
-			{{>header}}
+	<body>
 
-			<section class="hero-3">
-				<div class="row">
-					<div class="col-lg-6 col-md-12 col-sm-12 hero-left">
+		{{>header}}
+
+		<section class="hero">
+			<div class="row">
+				<div class="col-md-7 col-sm-12 hero-left">
+					<div class="hero-content">
 						<h1 class="hero-title">{{page.hero_section.title}}</h1>
 						<p class="hero-sub">{{page.hero_section.subtitle}}</p>
 						<p class="hero-sub" id="word"></p>
@@ -24,22 +24,14 @@
 								{{page.hero_section.link_text}}
 							</a>
 						</p>
-					</div>
-					<div class="col-lg-6 col-md-12 col-sm-12 hero-right">
-						<img src="{{{page.hero_index3.img_hero}}}"/>
-						<div class="box">
-							<h5>{{page.hero_index3.box.title}}</h5>
-							<p class="box-sub">{{page.hero_index3.box.sub}}</p>
-							<div class="author">
-								<img src="{{{page.hero_index3.box.img_box}}}"/>
-								<p><span>Raphael Olston</span>Business</p>
-							</div>
-						</div>
+						<p class="img-right">
+							<img src="{{{page.hero_section.img_hero}}}"/>
+							<img class="overlay_bg" src="https://lh3.googleusercontent.com/Zr6S49xGg8tlL2mVZIe7T6zd4TXiBSc6q9Z2-8duAhQSS3dl9kLiqXIdIsGuQi0Be9_oJrkpR-ymeVzXZxnA2WKa"/>
+						</p>
 					</div>
 				</div>
-			</section>
-		</div>
-		
+			</div>
+		</section>
 
 		<div class="container">
 			<section class="section1">

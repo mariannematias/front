@@ -1,41 +1,56 @@
 { 
-  "name": "Front",
-  "logo": "https://lh3.googleusercontent.com/Qn05ZJ2wuuhpZ_mdGhwEzm5b2oJQKC6rm6CRs32wrFzsdpQ3ip3W74Ecw9eLCJJUdKCm5DRwHZpwqV4AmRBGZNyf",
-  "list1": "Help",
-  "list2": "Contacts",
-  "head-nav": [{"link": "/", "text": "Home"}, {"link": "blog", "text": "Blog"}, {"link": "#", "text": "Help"}, {"link": "#", "text": "Contacts"}],
-  "btn": "Buy Now",
+  "site_name": "Front",
+  "img_logo": "https://lh3.googleusercontent.com/Qn05ZJ2wuuhpZ_mdGhwEzm5b2oJQKC6rm6CRs32wrFzsdpQ3ip3W74Ecw9eLCJJUdKCm5DRwHZpwqV4AmRBGZNyf",
+  "header_nav": {
+    "home": {
+      "text": "Home",
+      "shor_or_hide": true
+    },
+    "home2": {
+      "text": "Home-2",
+      "shor_or_hide": true
+    },
+    "home3": {
+      "text": "Home-3",
+      "shor_or_hide": true
+    },
+    "blog": {
+      "text": "Blog",
+      "shor_or_hide": true
+    },
+    "btn_text": "Buy Now"
+  },
   "footer": {
     "links": [
       {
-        "class": "col-md-2 col-sm-4 footer-list",
         "title": "About",
         "link": [{"text": "About"}, {"text": "Services"}, {"text": "Careers"}]
       },
       {
-        "class": "col-md-2 col-sm-4 footer-list",
         "title": "Account",
         "link": [{"text": "Account"}, {"text": "My Tasks"}, {"text": "Project"}]
       },
       {
-        "class": "col-md-3 col-sm-4 footer-list",
         "title": "Resources",
         "link": [{"text": "Help"}, {"text": "Terms"}, {"text": "Privacy"}]
       }
     ],
-    "desc": "We are driven to deliver results for all your businesses.",
-    "btn1": "Download on the",
-    "btn1span": "App Store",
-    "btn2": "Get it on",
-    "btn2span": "Google Play",
+    "description": "We are driven to deliver results for all your businesses.",
+    "download_ios": {
+      "btn_text": "Download on the",
+      "btn_store": "App Store"
+    },
+    "download_android": {
+      "btn_text": "Get it on",
+      "btn_store": "Google Play"
+    },
     "copyright": "© Front. 2019 Htmlstream. All rights reserved."
   },
   "subscribe": {
-    "sub": "Subscribe",
+    "subheader": "Subscribe",
     "title": "Stay in the know",
-    "desc": "Get special offers on the latest developments from Front.",
-    "btn": "Join now",
-    "promo": "Be the lucky user to earn $1000 bonus now!",
+    "description": "Get special offers on the latest developments from Front.",
+    "btn_text": "Join now",
     "img": "https://lh3.googleusercontent.com/TScsFprfZ77p9vGKtiAqKi6QrQFUE6v9QDx-jty1hWwN0gV-PzW3d6MQIKKR7KW4FDX5Tg1RQyAhBwLCCnYsviwV_-k"
   }
 }

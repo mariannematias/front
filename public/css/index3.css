@@ -5,6 +5,18 @@
 .btn-blue {
     border-color: #fff;
 }
+.btn-started {
+    color: #fff;
+    background: #377dff1a;
+    border-color: #fff;
+    transition: color;
+}
+.btn-started:hover {
+    color: #1e2022;
+}
+.btn-sub a:hover {
+    color: #fff;
+}
 #navbar-top {
     background: #fff;
 }

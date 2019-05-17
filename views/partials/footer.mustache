@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       {{#global.footer.links}}
-        <div class="{{class}}">
+        <div class="col-md-2 col-sm-4 footer-list">
           <p class="footer-head">{{title}}</p>
           <ul class="footer-links">
             {{#link}}
@@ -12,17 +12,17 @@
         </div>
       {{/global.footer.links}}
       <div class="col-md-5 col-sm-12">
-        <p class="footer-head">{{global.footer.desc}}</p>
+        <p class="footer-head">{{global.footer.description}}</p>
         <p>
           <button class="btn btn-md btn-footer">
             <i class="fab fa-apple"></i>
-            <span class="text">{{global.footer.btn1}}</span>
-            <span class="text2">{{global.footer.btn1span}}</span>
+            <span class="text">{{global.footer.download_ios.btn_text}}</span>
+            <span class="text2">{{global.footer.download_ios.btn_store}}</span>
           </button>
           <button class="btn btn-md btn-footer">
             <i class="fab fa-google-play"></i>
-            <span class="text">{{global.footer.btn2}}</span>
-            <span class="text2">{{global.footer.btn2span}}</span>
+            <span class="text">{{global.footer.download_android.btn_text}}</span>
+            <span class="text2">{{global.footer.download_android.btn_store}}</span>
           </button>
         </p>
       </div>
@@ -31,8 +31,8 @@
   <div class="copyright">
     <div class="container align-center">
       <p>
-        <img class="logo" src="{{{global.logo}}}">
-        <span>{{global.name}}</span>
+        <img class="logo" src="{{{global.img_logo}}}">
+        <span>{{global.site_name}}</span>
       </p>
       <p>{{global.footer.copyright}}</p>
     </div>

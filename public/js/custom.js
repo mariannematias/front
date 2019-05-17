@@ -38,15 +38,4 @@ $(document).ready(function(){
     };
 
     typingEffect();
-
-    $("#div2").hide();
-
-    /* add active class on selected navigation */
-    $(".btn-secondary").click(function(){
-        var btnId = $(this).attr('id');
-        $(".btn-secondary").removeClass("active");
-        $(this).addClass("active");
-        $(".monthly-section").hide();
-        $("#div"+btnId).fadeIn(500);;
-    });
 });

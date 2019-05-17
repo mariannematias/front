@@ -2,7 +2,7 @@
 <!doctype html>
 <html lang="en">
 	{{>head}}
-	<link href="css/index2.css" rel="stylesheet">
+	<link href="/css/index2.css" rel="stylesheet">
   	</head>
 
 	<body class="index-2">
@@ -12,19 +12,22 @@
 			<section class="hero-2">
 				<div class="row">
 					<div class="col-lg-6 col-md-6 col-sm-12 hero-left">
-						<h1 class="hero-title">{{page.hero.title}}</h1>
-						<p class="hero-sub">{{page.hero.sub}}</p>
+						<h1 class="hero-title">{{page.hero_section.title}}</h1>
+						<p class="hero-sub">{{page.hero_section.subtitle}}</p>
 						<p class="hero-sub" id="word"></p>
 						<p class="hero-sub blink inline">|</p>
-						<p>{{page.hero.sub2}}</p>
+						<p>{{page.hero_section.subtitle2}}</p>
 						<p class="btn-sub">
-							<span class="play"><a href="#"><i class="fas fa-play"></i></a></span>
-							<a href="#">{{page.hero.link}}</a>
+							<button class="btn btn-md btn-started">{{page.hero_section.btn_text}}</button>
+							<a href="{{{page.hero_section.link_video}}}">
+								<span class="play"><i class="fas fa-play"></i></span>
+								{{page.hero_section.link_text}}
+							</a>
 						</p>
 					</div>
 					<div class="image-tilt">
-						<img src="{{{page.hero2.img1}}}">
-						<img src="{{{page.hero2.img2}}}">
+						<img src="{{{page.hero_index2.img_mobile}}}">
+						<img src="{{{page.hero_index2.img_tablet}}}">
 					</div>
 				</div>
 			</section>
@@ -35,82 +38,77 @@
 			<section class="section1">
 				<div class="section-title align-center">
 					<div class="half-width">
-						<p class="sub m-bottom-half"><span>{{page.section1.sub}}</span></p>
+						<p class="sub m-bottom-half"><span>{{page.section1.subheader}}</span></p>
 						<h2 class="m-bottom-half">{{page.section1.title}}</h2>
 					</div>
 				</div>
 				<div class="row section1-list m-top-4">
-					{{#page.section1.list}}
-						<div class="col-md-4 col-sm-12 align-center">
-							<p><span style="background: {{icon-bg}}";><i class="{{icon}}" style="{{style}}"></i></span></p>
-							<h3>{{title}}</h3>
-							<p class="gray">{{sub}}</p>
-						</div>
-					{{/page.section1.list}}
+					<div class="col-md-4 col-sm-12 align-center">
+						<p><img src="images/icon1.png"/></p>
+						<h3>{{page.section1.lists.list1.title}}</h3>
+						<p class="gray">{{page.section1.lists.list1.subtitle}}</p>
+					</div>
+					<div class="col-md-4 col-sm-12 align-center">
+						<p><img src="images/icon2.png"/></p>
+						<h3>{{page.section1.lists.list2.title}}</h3>
+						<p class="gray">{{page.section1.lists.list2.subtitle}}</p>
+					</div>
+					<div class="col-md-4 col-sm-12 align-center">
+						<p><img src="images/icon3.png"/></p>
+						<h3>{{page.section1.lists.list3.title}}</h3>
+						<p class="gray">{{page.section1.lists.list3.subtitle}}</p>
+					</div>
 				</div>
 				<div class="half-width align-center">
-					<h3 class="m-top-4">{{page.section1.desc}} <span class="font-normal"> {{page.section1.desc2}}</span></h3>
+					<h3 class="m-top-4">{{page.section1.description}} <span class="font-normal"> {{page.section1.description2}}</span></h3>
 				</div>
-				<p class="m-top-2 align-center"><img src="{{{page.section1.img}}}"></p>
+				<p class="m-top-2 align-center"><img src="{{{page.section1.img_section}}}"/></p>
 				<p class="align-center gray font-small note">{{page.section1.note}}</p>
 			</section>
 
 			<section class="section2 m-top-4">
 				<div class="row">
-					<div class="col-lg-4 col-md-12 col-sm-12">
+					<div class="col-lg-5 col-md-12 col-sm-12 price-left">
 						<div class="section-title">
-							<p class="sub m-bottom-half"><span>{{page.section2.sub}}</span></p>
+							<p class="sub m-bottom-half"><span>{{page.section2.subheader}}</span></p>
 							<h2 class="m-bottom-half">{{page.section2.title}}</h2>
-							<p class="gray">{{page.section2.desc}}</p>
-						</div>
-						<div class="btn-group btn-plan m-top-2" role="group">
-							<button type="button" class="btn btn-secondary active" id="1">Monthly</button>
-							<button type="button" class="btn btn-secondary" id="2">Yearly</button>
+							<p class="gray">{{page.section2.description}}</p>
 						</div>
 					</div>
-					<div class="col-lg-8 col-md-12 col-sm-12 monthly-section" id="div1">
+					<div class="col-lg-7 col-md-12 col-sm-12 monthly-section">
 						<div class="row">
-							{{#page.section2.price}}
-								<div class="{{class}}">
-									<div class="price-box">
-										<div class="head">
-											<h3>{{title}}</h3>
-											<p><span>$</span><span>{{amount}}</span><span>/month</span></p>
-										</div>
-										<ul class="price-list">
-											{{#list}}
-												<li><span><i class="fas fa-check"></i></span>{{text}}</li>
-											{{/list}}
-										</ul>
-										<p class="align-center btn-read">
-											<button class="btn btn-md btn-started">{{page.hero.btn}}</button>
-										</p>
+							<div class="col-md-6 col-sm-12">
+								<div class="price-box">
+									<div class="head">
+										<h3>{{page.section2.prices.price1.title}}</h3>
+										<p><span>$</span><span>{{page.section2.prices.price1.amount}}</span><span>/month</span></p>
 									</div>
+									<ul class="price-list">
+										{{#page.section2.prices.price1.list}}
+											<li><span><i class="fas fa-check"></i></span>{{text}}</li>
+										{{/page.section2.prices.price1.list}}
+									</ul>
+									<p class="align-center btn-read">
+										<button class="btn btn-md btn-started">{{page.section2.prices.price1.btn_text}}</button>
+									</p>
 								</div>
-							{{/page.section2.price}}
-						</div>
-						<p class="align-center gray font-small note">{{page.section2.terms}}</p>
-					</div>
-					<div class="col-lg-8 col-md-12 col-sm-12 monthly-section" id="div2">
-						<div class="row">
-							{{#page.section2.price}}
-								<div class="{{class}}">
-									<div class="price-box">
-										<div class="head">
-											<h3>{{title}}</h3>
-											<p><span>$</span><span>{{amount2}}</span><span>/month</span></p>
-										</div>
-										<ul class="price-list">
-											{{#list}}
-												<li><span><i class="fas fa-check"></i></span>{{text}}</li>
-											{{/list}}
-										</ul>
-										<p class="align-center btn-read">
-											<button class="btn btn-md btn-started">{{page.hero.btn}}</button>
-										</p>
+							</div>
+							<div class="col-md-6 col-sm-12">
+								<div class="price-box">
+									<div class="head">
+										<h3>{{page.section2.prices.price2.title}}</h3>
+										<p><span>$</span><span>{{page.section2.prices.price2.amount}}</span><span>/month</span></p>
 									</div>
+									<ul class="price-list">
+										{{#page.section2.prices.price2.list}}
+											<li><span><i class="fas fa-check"></i></span>{{text}}</li>
+										{{/page.section2.prices.price2.list}}
+									</ul>
+									<p class="align-center btn-read">
+										<button class="btn btn-md btn-started">{{page.section2.prices.price2.btn_text}}</button>
+									</p>
 								</div>
-							{{/page.section2.price}}
+							</div>
 						</div>
 						<p class="align-center gray font-small note">{{page.section2.terms}}</p>
 					</div>
@@ -122,31 +120,39 @@
 			<section class="section3 m-top-4">
 				<div class="section-title align-center">
 					<div class="half-width">
-						<p class="sub m-bottom-half"><span>{{page.section3.sub}}</span></p>
+						<p class="sub m-bottom-half"><span>{{page.section3.subheader}}</span></p>
 						<h2 class="m-bottom-half">{{page.section3.title}}</h2>
-						<p class="gray">{{page.section3.desc}}</p>
+						<p class="gray">{{page.section3.description}}</p>
 					</div>
 				</div>
 
 				<div class="row m-top-4 carousel-list">
-					{{#page.section3.list}}
 					<div class="col-md-4 col-sm-12">
-						<div class="{{class1}}" style="{{style}}">
-							{{#content}}
+						<div class="align-center list-item" style="background: url('{{{post.image}}}');background-size: cover;">
 							<div class="content">	
-							{{/content}}
-								<p class="slider-title">{{title}}</p>
-								<p class="name"><strong>{{name}}</strong></p>
-								<img src="{{{img}}}">
-								{{#btn}}
-									<p class="m-top-1"><button class="btn btn-md btn-started">{{btn}}</button></p>
-								{{/btn}}
-							{{#content}}
+								<p class="slider-title"><a href="/post/{{post.slug}}">{{post.title}}</a></p>
+								<p class="name"><strong>{{post.dateString}}</strong></p>
 							</div>
-							{{/content}}
 						</div>
 					</div>
-					{{/page.section3.list}}
+
+					<div class="col-md-4 col-sm-12 white-bg">
+						<div class="align-center list-item">
+							<p class="slider-title">{{post1.preview}}</p>
+							<p class="name"><strong>{{post1.dateString}}</strong></p>
+							<p class="m-top-1"><a href="/post/{{post1.slug}}"><button class="btn btn-md btn-started">Read More</button></a></p>
+						</div>
+					</div>
+
+					<div class="col-md-4 col-sm-12">
+						<div class="align-center list-item" style="background: url('{{{post2.image}}}');background-size: cover;">
+							<div class="content">	
+								<p class="slider-title"><a href="/post/{{post2.slug}}">{{post2.title}}</a></p>
+								<p class="name"><strong>{{post2.dateString}}</strong></p>
+							</div>
+						</div>
+					</div>
+
 				</div>
 
 			</section>
@@ -154,9 +160,9 @@
 
 		{{>footer}}
 
-		<script src="js/jquery.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/custom.js"></script>
-		<script src="js/navbar.js"></script>
+		<!-- Vertex library for enabling site updates from https://www.vertex360.co -->
+    	<script type="text/javascript" src="https://cdn.turbo360-dev.com/dist/vertex.min.js"></script>
+		{{>scripts}}
+		<script src="/js/custom.js"></script>
 	</body>
 </html>

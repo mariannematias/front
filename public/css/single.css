@@ -1,9 +1,8 @@
 .hero-single {
-    background: url("https://lh3.googleusercontent.com/zukpat7vVgxCR2VUBsq8L3id-YIS5yFj8u6eDsNHOFphTANMhntxboq5m4b4795bi_W1Ii-duJyC9JldfrLR9Of7qQ=s2048");
     background-size: cover;
     background-position: center;
     position: relative;
-    padding: 7rem 0 2rem;
+    padding: 10rem 0 3rem;
     color: #fff;
 }
 .hero-single h1 {

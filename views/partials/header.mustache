@@ -5,15 +5,16 @@
                 <i class="toggle fas fa-bars"></i>
             </button>
             <a class="navbar-brand" href="/">
-                <img class="logo" src="{{{global.logo}}}" class="d-inline-block align-top" alt="">
-                <span>{{global.name}}</span>
+                <img class="logo" src="{{{global.img_logo}}}" class="d-inline-block align-top" alt="">
+                <span>{{global.site_name}}</span>
             </a>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                <div class="navbar-nav ml-auto">
-                    {{#global.head-nav}}
-                        <a class="nav-item nav-link" href="{{link}}">{{text}}</a>
-                    {{/global.head-nav}}
-                    <span><button class="btn btn-sm btn-blue">{{global.btn}}</button></span>
+                    <a class="nav-item nav-link" href="/">{{global.header_nav.home.text}}</a>
+                    <a class="nav-item nav-link" href="/blog">{{global.header_nav.blog.text}}</a>
+                    <a class="nav-item nav-link" href="/index-2">{{global.header_nav.home2.text}}</a>
+                    <a class="nav-item nav-link" href="/index-3">{{global.header_nav.home3.text}}</a>
+                    <span><button class="btn btn-sm btn-blue">{{global.header_nav.btn_text}}</button></span>
                 </div>         
             </div>
         </div>
@@ -24,16 +25,17 @@
                 <i class="toggle fas fa-bars"></i>
             </button>
             <a class="navbar-brand" href="/">
-                <img class="logo" src="{{{global.logo}}}" class="d-inline-block align-top" alt="">
-                <span>{{global.name}}</span>
+                <img class="logo" src="{{{global.img_logo}}}" class="d-inline-block align-top" alt="">
+                <span>{{global.site_name}}</span>
             </a>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-               <div class="navbar-nav ml-auto">
-                    {{#global.head-nav}}
-                        <a class="nav-item nav-link" href="{{link}}">{{text}}</a>
-                    {{/global.head-nav}}
-                    <span><button class="btn btn-sm btn-blue">{{global.btn}}</button></span>
-                </div>         
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link" href="/">{{global.header_nav.home.text}}</a>
+                    <a class="nav-item nav-link" href="/blog">{{global.header_nav.blog.text}}</a>
+                    <a class="nav-item nav-link" href="/index-2">{{global.header_nav.home2.text}}</a>
+                    <a class="nav-item nav-link" href="/index-3">{{global.header_nav.home3.text}}</a>
+                    <span><button class="btn btn-sm btn-blue">{{global.btn_text}}</button></span>
+                </div>           
             </div>
         </div>
     </nav> 

@@ -34,7 +34,7 @@ header {
 .blog-row h3 a:hover {
     color: #377dff;
 }
-.blog-row {
+.blog-row .post {
     margin-bottom: 4rem;
 }
 .blog-row img {
