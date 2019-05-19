@@ -18,8 +18,8 @@
 						<p class="hero-sub blink inline">|</p>
 						<p>{{page.hero_section.subtitle2}}</p>
 						<p class="btn-sub">
-							<button class="btn btn-md btn-started">{{page.hero_section.btn_text}}</button>
-							<a href="{{{page.hero_section.link_video}}}">
+							<a href="#register" class="register-btn"><button class="btn btn-md btn-started">{{page.hero_section.btn_text}}</button></a>
+							<a href="{{{page.hero_section.link_video}}}" target="_blank">
 								<span class="play"><i class="fas fa-play"></i></span>
 								{{page.hero_section.link_text}}
 							</a>
@@ -96,7 +96,7 @@
 										{{/page.section2.prices.price1.list}}
 									</ul>
 									<p class="align-center btn-read">
-										<button class="btn btn-md btn-started">{{page.section2.prices.price1.btn_text}}</button>
+										<a href="#register" class="register-btn"><button class="btn btn-md btn-started">{{page.section2.prices.price1.btn_text}}</button></a>
 									</p>
 								</div>
 							</div>
@@ -112,7 +112,7 @@
 										{{/page.section2.prices.price2.list}}
 									</ul>
 									<p class="align-center btn-read">
-										<button class="btn btn-md btn-started">{{page.section2.prices.price2.btn_text}}</button>
+										<a href="#register" class="register-btn"><button class="btn btn-md btn-started">{{page.section2.prices.price2.btn_text}}</button></a>
 									</p>
 								</div>
 							</div>
@@ -163,6 +163,31 @@
 				</div>
 
 			</section>
+
+			<section id="register">
+				<div class="section-title align-center">
+					<div class="half-width">
+						<h2 class="m-bottom-half">Register</h2>
+						<p class="gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					</div>
+				</div>
+				<div class="container align-center">
+					<div class="register row">
+						<form id="edd_register_form" class="edd_form" action="" method="post">
+							<fieldset>
+								<p>
+									<input id="edd-user-login" class="required edd-input" type="text" name="edd_user_login" placeholder="USERNAME">
+								</p>
+								<p>
+									<input id="edd-user-email" class="required edd-input" type="email" name="edd_user_email" placeholder="EMAIL">
+								</p>
+							</fieldset>
+						</form>
+					</div>
+					<p class="align-center"><button class="btn btn-md btn-started"><span>Register</span></button></p>
+				</div>
+			</section>
+
 		</div>
 
 		{{>footer}}

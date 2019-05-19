@@ -5,7 +5,7 @@
     "subtitle2": "Attract more visitors, and win more business with Front template.",
     "btn_text": "Get Started",
     "link_text": "Play video",
-    "link_video": "",
+    "link_video": "https://www.youtube.com",
     "img_hero": "https://lh3.googleusercontent.com/W1bzXUeQ_--Jnn1UqKkeNXWuAtBMV4N-J7M1dx2Litxpb9iYKLJqAZitVX7ourr2w7szI8gClgj7FmvHTIwT40MLw-A"
   },
   "section1": {
@@ -13,14 +13,17 @@
     "title": "Front makes designing easy and performance fast",
     "lists": {
       "list1": {
+        "img_icon": "https://lh3.googleusercontent.com/9ko8AgkivrIoqw7GGBjTQVU6alM5y3u5ko6g_KagsSP5YAmf_BQcd3W1myEOCkPmYfpkwGZdhyEULUm8oZqbUtcJGw",
         "title": "Professional Design",
         "subtitle": "Achieve virtually any design and layout from within the one template."
       },
       "list2": {
+        "img_icon": "https://lh3.googleusercontent.com/4QJ3Ste9w6Xv1jdl3JaSDq8OVeOWYTXUBRo6e6DQlxZVof_N2PtV6BQT8j9RpsuCVHrfuOUXiLrhPUNBPb2THNj6",
         "title": "Front Strategy",
         "subtitle": "We strive to figure out ways to help your business grow through all platforms."
       },
       "list3": {
+        "img_icon": "https://lh3.googleusercontent.com/pzdEv-K-d9FHGUguSn1cDzFzot9o9pC99ufIY15fwaxi5-VpHSPJ2KplNN8hoBip8e8C0swdvzgc351hn5SQjLdT",
         "title": "Unlimited Power",
         "subtitle": "Find what you need in one template and combine features at will."
       }

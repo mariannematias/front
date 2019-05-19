@@ -534,6 +534,37 @@ footer {
     font-size: .75rem;
 }
 
+.register form {
+    margin: auto;
+    position: relative;
+}
+.register p input {
+    color: #7d91a5;
+    font-size: 16px;
+    width: 350px;
+    border-radius: 4px;
+    box-shadow: none;
+    -webkit-appearance: none;
+    appearance: none;
+    text-align: center;
+    padding: 16px;
+    border: 0;
+    background: #272e47;
+    transition: none;
+}
+#register .btn-md {
+    margin-top: 1rem;
+    min-width: 13rem;
+}
+#edd-user-login {
+    margin-top: 30px;
+}
+#register {
+    padding-top: 8rem;
+    margin-bottom: 3rem;
+}
+
+
 @media (max-width: 1320px) {
     .hero-left {
         padding-left: 6rem;

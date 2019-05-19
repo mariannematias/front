@@ -10,30 +10,15 @@
 
 		<div class="container">
 			<div class="row">
-				<div class="col-md-9 order-md-2 col-sm-12">
-					<div class="row blog-row">
-						{{#posts}}
-							<div class="col-md-6 col-sm-12 post">
-								<p><img src={{{image}}}></p>
-								<p class="date gray">{{dateString}}</p>
-								<h3><a href="/post/{{slug}}">{{title}}</a></h3>
-								<p class="gray">{{preview}}</p>
-							</div>	
-						{{/posts}}
-					</div>
-				</div>
-				<div class="col-md-3 order-md-1 col-sm-12 sidebar">
-					<div class="sticky-side">
-						<h3>{{page.sidebar.news.title}}</h3>
-						<ul class="news-list">
-							{{#page.sidebar.news.list}}
-								<li>
-									<img src={{{img}}}>
-									<p><a href="#">{{text}}</a></p>
-								</li>
-							{{/page.sidebar.news.list}}
-						</ul>
-					</div>
+				<div class="row blog-row">
+					{{#posts}}
+						<div class="col-md-4 col-sm-12 post">
+							<p><img src={{{image}}}></p>
+							<p class="date gray">{{dateString}}</p>
+							<h3><a href="/post/{{slug}}">{{title}}</a></h3>
+							<p class="gray">{{preview}}</p>
+						</div>	
+					{{/posts}}
 				</div>
 			</div>
 		</div>
