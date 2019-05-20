@@ -43,4 +43,14 @@ $(document).ready(function(){
         event.preventDefault();
         $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top }, 1200);
     });
+
+    // on preview show iframe
+    $('#videoModal').on('show.bs.modal', function (e) {
+        var idVideo = $(e.relatedTarget).data('id');
+        $('#videoModal .modal-body').html('<iframe width="100%" height="500px" src="https://www.youtube.com/embed/' + idVideo + '?autoplay=true" frameborder="0" allowfullscreen></iframe>');
+    });
+    //on close remove
+    $('#videoModal').on('hidden.bs.modal', function () {
+        $('#videoModal .modal-body').empty();
+    });
 });

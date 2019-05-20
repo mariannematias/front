@@ -563,7 +563,18 @@ footer {
     padding-top: 8rem;
     margin-bottom: 3rem;
 }
-
+.modal-content {
+    background: transparent;
+    border: none;
+}
+.modal-backdrop.in {
+	opacity: 0.9;
+}
+.modal-header {
+    padding: 0;
+    padding-top: 4rem;
+    border-bottom: none;
+}
 
 @media (max-width: 1320px) {
     .hero-left {
