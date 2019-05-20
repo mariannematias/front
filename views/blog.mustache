@@ -13,7 +13,7 @@
 				<div class="row blog-row">
 					{{#posts}}
 						<div class="col-md-4 col-sm-12 post">
-							<p><img src={{{image}}}></p>
+							<p><a href="/post/{{slug}}"><img src={{{image}}}></a></p>
 							<p class="date gray">{{dateString}}</p>
 							<h3><a href="/post/{{slug}}">{{title}}</a></h3>
 							<p class="gray">{{preview}}</p>
@@ -23,6 +23,7 @@
 			</div>
 		</div>
 		{{>subscribe}}
+
 		{{>footer}}
 
 		{{>scripts}}

@@ -6,7 +6,7 @@
     "btn_text": "Get Started",
     "link_text": "Play video",
     "link_video": "https://www.youtube.com",
-    "img_hero": "https://lh3.googleusercontent.com/W1bzXUeQ_--Jnn1UqKkeNXWuAtBMV4N-J7M1dx2Litxpb9iYKLJqAZitVX7ourr2w7szI8gClgj7FmvHTIwT40MLw-A"
+    "img_hero": "https://lh3.googleusercontent.com/W1bzXUeQ_--Jnn1UqKkeNXWuAtBMV4N-J7M1dx2Litxpb9iYKLJqAZitVX7ourr2w7szI8gClgj7FmvHTIwT40MLw-A=s1024-c"
   },
   "section1": {
     "subheader": "What we do?",
@@ -50,8 +50,7 @@
         "list": [{"text": "24/7 support"}, {"text": "400+ pages"}, {"text": "200+ header variations"}, {"text": "40+ home page options"}, {"text": "E-commerce"}],
         "btn_text": "Get started"
       }
-    },
-    "terms": "* Terms are subject to change."
+    }
   },
   "section3": {
     "subheader": "News & Blog",
