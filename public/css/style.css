@@ -536,6 +536,10 @@ footer {
 .register form {
     margin: auto;
     position: relative;
+    padding-top: 1rem;
+}
+.register form p {
+    margin: .7rem 0;
 }
 .register p input {
     color: #7d91a5;

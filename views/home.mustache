@@ -8,7 +8,7 @@
 
 		{{>header}}
 
-		<section class="hero">
+		<section class="hero" id="hero_section">
 			<div class="row">
 				<div class="col-md-7 col-sm-12 hero-left">
 					<div class="hero-content">
@@ -39,7 +39,7 @@
 						</div>
 
 						<p class="img-right">
-							<img src="{{{page.hero_section.img_hero}}}"/>
+							<img src="{{{page.hero_section.img_hero}}}=s1024-c"/>
 							<img class="overlay_bg" src="https://lh3.googleusercontent.com/EyDK-ex-tDIJNcptuyAw7SU59WbSqehvIb64MQ38ml70hW4QiEsBxaOXrtup0ig4gMZ7E9tPsgox7Y12F8NdUgi5=s1024"/>
 						</p>
 					</div>
@@ -47,7 +47,7 @@
 			</div>
 		</section>
 
-		<div class="container">
+		<div class="container" id="section1">
 			<section class="section1">
 				<div class="section-title align-center">
 					<div class="half-width">
@@ -75,11 +75,11 @@
 				<div class="half-width align-center">
 					<h3 class="m-top-4">{{page.section1.description}} <span class="font-normal"> {{page.section1.description2}}</span></h3>
 				</div>
-				<p class="m-top-2 align-center"><img src="{{{page.section1.img_section}}}"/></p>
+				<p class="m-top-2 align-center"><img src="{{{page.section1.img_section}}}=s2048"/></p>
 				<p class="align-center gray font-small note">{{page.section1.note}}</p>
 			</section>
 
-			<section class="section2 m-top-4">
+			<section class="section2 m-top-4" id="section2">
 				<div class="row">
 					<div class="col-lg-5 col-md-12 col-sm-12 price-left">
 						<div class="section-title">
@@ -128,7 +128,7 @@
 			</section>
 		</div>
 
-		<div class="container-fluid section3-bg">
+		<div class="container-fluid section3-bg" id="section3">
 			<section class="section3 m-top-4">
 				<div class="section-title align-center">
 					<div class="half-width">
@@ -172,8 +172,8 @@
 			<section id="register">
 				<div class="section-title align-center">
 					<div class="half-width">
-						<h2 class="m-bottom-half">{{global.register.title}}</h2>
-						<p class="gray">{{global.register.description}}</p>
+						<h2 class="m-bottom-half">Register</h2>
+						<p class="gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 					</div>
 				</div>
 				<div class="container align-center">
@@ -181,7 +181,10 @@
 						<form id="edd_register_form" class="edd_form" action="" method="post">
 							<fieldset>
 								<p>
-									<input id="edd-user-login" class="required edd-input" type="text" name="edd_user_login" placeholder="USERNAME">
+									<input id="edd-user-firstName" class="required edd-input" type="text" name="edd_user_login" placeholder="FIRST NAME">
+								</p>
+								<p>
+									<input id="edd-user-lastName" class="required edd-input" type="text" name="edd_user_login" placeholder="LAST NAME">
 								</p>
 								<p>
 									<input id="edd-user-email" class="required edd-input" type="email" name="edd_user_email" placeholder="EMAIL">
@@ -189,7 +192,7 @@
 							</fieldset>
 						</form>
 					</div>
-					<p class="align-center"><button class="btn btn-md btn-started" style="background-color: {{global.register.btn_color}}"><span>{{global.register.btn_text}}</span></button></p>
+					<p class="align-center"><button id="btn-register" class="btn btn-md btn-started"><span>Register</span></button></p>
 				</div>
 			</section>
 
@@ -197,6 +200,9 @@
 
 		{{>footer}}
 
+		<script>
+			window.__PRELOADED__ = {{{preloaded}}}
+		</script>
 		<!-- Vertex library for enabling site updates from https://www.vertex360.co -->
     	<script type="text/javascript" src="https://cdn.turbo360-dev.com/dist/vertex.min.js"></script>
 		{{>scripts}}

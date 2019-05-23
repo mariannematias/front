@@ -1,6 +1,8 @@
 { 
   "site_name": "Front",
   "img_logo": "https://lh3.googleusercontent.com/Qn05ZJ2wuuhpZ_mdGhwEzm5b2oJQKC6rm6CRs32wrFzsdpQ3ip3W74Ecw9eLCJJUdKCm5DRwHZpwqV4AmRBGZNyf",
+  "img_favicon": "https://lh3.googleusercontent.com/5SVrpLI9utkuVJbQb48cpD3tar59mgWaWSAM73Ghj8dxFJMD2UOzkhO5ptWDd2uV2eqgSvDCSa-Ad8aOrygXx6nv",
+  "subscriber_confirmation": "Thank you for subscribing! We will contact you shortly.",
   "header_nav": {
     "home": {
       "text": "Home",
@@ -28,12 +30,6 @@
     "title": "Stay in the know",
     "description": "Get special offers on the latest developments from Front.",
     "btn_text": "Join now",
-    "img": "https://lh3.googleusercontent.com/TScsFprfZ77p9vGKtiAqKi6QrQFUE6v9QDx-jty1hWwN0gV-PzW3d6MQIKKR7KW4FDX5Tg1RQyAhBwLCCnYsviwV_-k"
-  },
-  "register": {
-    "title": "Register",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "btn_text": "Register",
-    "btn_color": "lightblue"
+    "img_bg": "https://lh3.googleusercontent.com/TScsFprfZ77p9vGKtiAqKi6QrQFUE6v9QDx-jty1hWwN0gV-PzW3d6MQIKKR7KW4FDX5Tg1RQyAhBwLCCnYsviwV_-k"
   }
 }
