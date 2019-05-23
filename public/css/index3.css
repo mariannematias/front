@@ -5,6 +5,9 @@
 .btn-blue {
     border-color: #fff;
 }
+#btn-register {
+    color: #377dff;
+}
 .btn-started {
     color: #fff;
     background: #377dff1a;
