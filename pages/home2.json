@@ -7,7 +7,11 @@
     "link_text": "Play video",
     "video_link": "https://www.youtube.com/embed/bzeBIAKJeDw",
     "img_hero": "https://lh3.googleusercontent.com/W1bzXUeQ_--Jnn1UqKkeNXWuAtBMV4N-J7M1dx2Litxpb9iYKLJqAZitVX7ourr2w7szI8gClgj7FmvHTIwT40MLw-A",
-    "rotating": "astonishing., more professional., perfect in every way."
+    "rotating": "astonishing., more professional., perfect in every way.",
+    "hero_imgs": {
+      "img_mobile": "https://lh3.googleusercontent.com/TScsFprfZ77p9vGKtiAqKi6QrQFUE6v9QDx-jty1hWwN0gV-PzW3d6MQIKKR7KW4FDX5Tg1RQyAhBwLCCnYsviwV_-k",
+      "img_tablet": "https://lh3.googleusercontent.com/Jlamc39KzvMMggDCSrb4JTFX9hQ5_S0sxN5JZSpbNNF38tKHapGevETHg_sn-4nSjxih7oB7ZaI39TX8CShPg92wJQ"
+    }
   },
   "section1": {
     "subheader": "What we do?",

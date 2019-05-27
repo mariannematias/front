@@ -26,7 +26,8 @@ router.get('/', (req, res) => {
 		data['site'] = site
 		data['global'] = site.globalConfig
 		data['preloaded'] = JSON.stringify({
-			global: data.global
+			global: data.global,
+			page: data.page
 		})			
 		res.render('home', data)
 	})
@@ -40,9 +41,9 @@ router.get('/', (req, res) => {
 
 router.get('/index-2', (req, res) => {
 	const data = {cdn: CDN}
-	turbo.pageConfig('home', process.env.TURBO_API_KEY, process.env.TURBO_ENV)
-	.then(homeConfig => {
-		data['page'] = homeConfig
+	turbo.pageConfig('home2', process.env.TURBO_API_KEY, process.env.TURBO_ENV)
+	.then(home2Config => {
+		data['page'] = home2Config
 		let ctr = new controllers.post()
 		return ctr.get()
 	})
@@ -57,6 +58,10 @@ router.get('/index-2', (req, res) => {
 	.then(site => {
 		data['site'] = site
 		data['global'] = site.globalConfig
+		data['preloaded'] = JSON.stringify({
+			global: data.global,
+			page: data.page
+		})	
 		res.render('index-2', data)
 	})
 	.catch(err => {
@@ -69,9 +74,9 @@ router.get('/index-2', (req, res) => {
 
 router.get('/index-3', (req, res) => {
 	const data = {cdn: CDN}
-	turbo.pageConfig('home', process.env.TURBO_API_KEY, process.env.TURBO_ENV)
-	.then(homeConfig => {
-		data['page'] = homeConfig
+	turbo.pageConfig('home3', process.env.TURBO_API_KEY, process.env.TURBO_ENV)
+	.then(home3Config => {
+		data['page'] = home3Config
 		let ctr = new controllers.post()
 		return ctr.get()
 	})
@@ -86,6 +91,10 @@ router.get('/index-3', (req, res) => {
 	.then(site => {
 		data['site'] = site
 		data['global'] = site.globalConfig
+		data['preloaded'] = JSON.stringify({
+			global: data.global,
+			page: data.page
+		})
 		res.render('index-3', data)
 	})
 	.catch(err => {

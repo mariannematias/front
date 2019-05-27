@@ -10,7 +10,7 @@
 		<div class="orange-bg">
 			{{>header}}
 
-			<section class="hero-2">
+			<section class="hero-2" id="hero_section">
 				<div class="row">
 					<div class="col-lg-6 col-md-6 col-sm-12 hero-left">
 						<h1 class="hero-title">{{page.hero_section.title}}</h1>
@@ -41,16 +41,17 @@
 					</div>
 
 					<div class="image-tilt">
-						<img src="{{{page.hero_index2.img_mobile}}}">
-						<img src="{{{page.hero_index2.img_tablet}}}">
+						<img src="{{{page.hero_section.hero_imgs.img_mobile}}}" alt=""/>
+						<img src="{{{page.hero_section.hero_imgs.img_tablet}}}" alt=""/>
 					</div>
 				</div>
 			</section>
 		</div>
 		
-
+		
 		<div class="container">
-			<section class="section1">
+			{{#page.section1.show_or_hide}}
+			<section class="section1" id="section1">
 				<div class="section-title align-center">
 					<div class="half-width">
 						<p class="sub m-bottom-half"><span>{{page.section1.subheader}}</span></p>
@@ -77,11 +78,13 @@
 				<div class="half-width align-center">
 					<h3 class="m-top-4">{{page.section1.description}} <span class="font-normal"> {{page.section1.description2}}</span></h3>
 				</div>
-				<p class="m-top-2 align-center"><img src="{{{page.section1.img_section}}}"/></p>
+				<p class="m-top-2 align-center"><img src="{{{page.section1.img_section}}}=s2048"/></p>
 				<p class="align-center gray font-small note">{{page.section1.note}}</p>
 			</section>
+			{{/page.section1.show_or_hide}}
 
-			<section class="section2 m-top-4">
+			{{#page.section2.show_or_hide}}
+			<section class="section2 m-top-4" id="section2">
 				<div class="row">
 					<div class="col-lg-5 col-md-12 col-sm-12 price-left">
 						<div class="section-title">
@@ -125,13 +128,14 @@
 								</div>
 							</div>
 						</div>
-						<p class="align-center gray font-small note">{{page.section2.terms}}</p>
 					</div>
 				</div>
 			</section>
 		</div>
+		{{/page.section2.show_or_hide}}
 
-		<div class="container-fluid section3-bg">
+		{{#page.section3.show_or_hide}}
+		<div class="container-fluid section3-bg" id="section3">
 			<section class="section3 m-top-4">
 				<div class="section-title align-center">
 					<div class="half-width">
@@ -167,42 +171,20 @@
 							</div>
 						</div>
 					</div>
-
-				</div>
-
-			</section>
-
-			<section id="register">
-				<div class="section-title align-center">
-					<div class="half-width">
-						<h2 class="m-bottom-half">Register</h2>
-						<p class="gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-					</div>
-				</div>
-				<div class="container align-center">
-					<div class="register row">
-						<form id="edd_register_form" class="edd_form" action="" method="post">
-							<fieldset>
-								<p>
-									<input id="edd-user-firstName" class="required edd-input" type="text" name="edd_user_login" placeholder="FIRST NAME">
-								</p>
-								<p>
-									<input id="edd-user-lastName" class="required edd-input" type="text" name="edd_user_login" placeholder="LAST NAME">
-								</p>
-								<p>
-									<input id="edd-user-email" class="required edd-input" type="email" name="edd_user_email" placeholder="EMAIL">
-								</p>
-							</fieldset>
-						</form>
-					</div>
-					<p class="align-center"><button id="btn-register" class="btn btn-md btn-started"><span>Register</span></button></p>
 				</div>
 			</section>
+			{{/page.section3.show_or_hide}}
+
+			{{>register}}
 
 		</div>
 
 		{{>footer}}
 		</div>
+		<script>
+			window.__PRELOADED__ = {{{preloaded}}}
+		</script>
+		
 		<!-- Vertex library for enabling site updates from https://www.vertex360.co -->
     	<script type="text/javascript" src="https://cdn.turbo360-dev.com/dist/vertex.min.js"></script>
 		{{>scripts}}

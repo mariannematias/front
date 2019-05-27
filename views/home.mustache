@@ -19,7 +19,7 @@
 						<p>{{page.hero_section.subtitle2}}</p>
 						<p class="btn-sub">
 							<a href="#register" class="register-btn"><button class="btn btn-md btn-started">{{page.hero_section.btn_text}}</button></a>
-							<a href="#" data-id="bzeBIAKJeDw" data-toggle="modal" data-target="#videoModal">
+							<a href="#" data-id="{{{page.hero_section.video_link}}}" data-toggle="modal" data-target="#videoModal">
 								<span class="play"><i class="fas fa-play"></i></span>
 								{{page.hero_section.link_text}}
 							</a>
@@ -47,8 +47,9 @@
 			</div>
 		</section>
 
-		<div class="container" id="section1">
-			<section class="section1">
+		<div class="container">
+			{{#page.section1.show_or_hide}}
+			<section class="section1" id="section1">
 				<div class="section-title align-center">
 					<div class="half-width">
 						<p class="sub m-bottom-half"><span>{{page.section1.subheader}}</span></p>
@@ -78,7 +79,9 @@
 				<p class="m-top-2 align-center"><img src="{{{page.section1.img_section}}}=s2048"/></p>
 				<p class="align-center gray font-small note">{{page.section1.note}}</p>
 			</section>
+			{{/page.section1.show_or_hide}}
 
+			{{#page.section2.show_or_hide}}
 			<section class="section2 m-top-4" id="section2">
 				<div class="row">
 					<div class="col-lg-5 col-md-12 col-sm-12 price-left">
@@ -127,7 +130,9 @@
 				</div>
 			</section>
 		</div>
+		{{/page.section2.show_or_hide}}
 
+		{{#page.section3.show_or_hide}}
 		<div class="container-fluid section3-bg" id="section3">
 			<section class="section3 m-top-4">
 				<div class="section-title align-center">
@@ -164,37 +169,11 @@
 							</div>
 						</div>
 					</div>
-
-				</div>
-
-			</section>
-
-			<section id="register">
-				<div class="section-title align-center">
-					<div class="half-width">
-						<h2 class="m-bottom-half">Register</h2>
-						<p class="gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-					</div>
-				</div>
-				<div class="container align-center">
-					<div class="register row">
-						<form id="edd_register_form" class="edd_form" action="" method="post">
-							<fieldset>
-								<p>
-									<input id="edd-user-firstName" class="required edd-input" type="text" name="edd_user_login" placeholder="FIRST NAME">
-								</p>
-								<p>
-									<input id="edd-user-lastName" class="required edd-input" type="text" name="edd_user_login" placeholder="LAST NAME">
-								</p>
-								<p>
-									<input id="edd-user-email" class="required edd-input" type="email" name="edd_user_email" placeholder="EMAIL">
-								</p>
-							</fieldset>
-						</form>
-					</div>
-					<p class="align-center"><button id="btn-register" class="btn btn-md btn-started"><span>Register</span></button></p>
 				</div>
 			</section>
+			{{/page.section3.show_or_hide}}
+
+			{{>register}}
 
 		</div>
 

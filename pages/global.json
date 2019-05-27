@@ -6,24 +6,30 @@
   "header_nav": {
     "home": {
       "text": "Home",
-      "shor_or_hide": true
+      "show_or_hide": true
     },
     "home2": {
       "text": "Home-2",
-      "shor_or_hide": true
+      "show_or_hide": true
     },
     "home3": {
       "text": "Home-3",
-      "shor_or_hide": true
+      "show_or_hide": true
     },
     "blog": {
       "text": "Blog",
-      "shor_or_hide": true
+      "show_or_hide": true
     },
     "btn_text": "Buy Now"
   },
   "footer": {
     "copyright": "© Front. 2019 Htmlstream. All rights reserved."
+  },
+  "register": {
+    "title": "Register",
+    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "button_text": "Register",
+    "button_color": "lightskyblue"
   },
   "subscribe": {
     "subheader": "Subscribe",

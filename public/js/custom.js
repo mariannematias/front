@@ -1,5 +1,6 @@
 $(document).ready(function(){
-    const words = ["astonishing.", "more professional.", "perfect in every way."];
+    var data = window.__PRELOADED__;
+    var words = (data.page == null) ? ["astonishing.", "more professional.", "perfect in every way."] : data.page.hero_section.rotating.split(",");
     let i = 0;
     let timer;
 
@@ -47,7 +48,7 @@ $(document).ready(function(){
     // on preview show iframe
     $('#videoModal').on('show.bs.modal', function (e) {
         var idVideo = $(e.relatedTarget).data('id');
-        $('#videoModal .modal-body').html('<iframe width="100%" height="500px" src="https://www.youtube.com/embed/' + idVideo + '?autoplay=true" frameborder="0" allowfullscreen></iframe>');
+        $('#videoModal .modal-body').html('<iframe width="100%" height="500px" src="' + idVideo + '?autoplay=true" frameborder="0" allowfullscreen></iframe>');
     });
     //on close remove
     $('#videoModal').on('hidden.bs.modal', function () {

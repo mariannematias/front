@@ -6,8 +6,15 @@
     "btn_text": "Get Started",
     "link_text": "Play video",
     "video_link": "https://www.youtube.com/embed/bzeBIAKJeDw",
-    "img_hero": "https://lh3.googleusercontent.com/W1bzXUeQ_--Jnn1UqKkeNXWuAtBMV4N-J7M1dx2Litxpb9iYKLJqAZitVX7ourr2w7szI8gClgj7FmvHTIwT40MLw-A",
-    "rotating": "astonishing., more professional., perfect in every way."
+    "rotating": "astonishing., more professional., perfect in every way.",
+    "img_hero": "https://lh3.googleusercontent.com/WRR8FcgnGyyGzPM4ra98xiWiRrFJ_dWTGD0X4JKMxtvyyZShzjP9kAtCNH39puxIluFTDH6uDaFegssaaGoK0imi",
+    "box": {
+      "title": "Integrate quickly",
+      "sub": "Front lets you spend your development time on product improvements.",
+      "name": "Raphael Olston",
+      "position": "Business",
+      "img_box": "https://lh3.googleusercontent.com/1xwtH8OVcUu0DfvNSWsEsHVbQcTOb3UhTfMhf-rbOvIu9ZO1PllvHM7APTnElrUAiSJFcs7pqvJTYGH94jwPtCR83lY"
+    }
   },
   "section1": {
     "subheader": "What we do?",
