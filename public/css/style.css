@@ -91,8 +91,8 @@ h3 {
     padding-right: .5rem;
 }
 .logo {
-    width: 50px;
-    margin-top: -1rem;
+    width: 380px;
+    margin-top: .5rem;
 }
 #navbar-top {
     display: none;
@@ -449,6 +449,9 @@ footer {
     margin-left: 1rem;
     display: block;
 }
+footer .logo {
+    padding-bottom: 1rem;
+}
 .copyright {
     color: #8c98a4;
     font-size: .9rem;
@@ -459,6 +462,10 @@ footer {
     font-weight: 700;
     margin-left: .5rem;
     color: #377dff;
+}
+footer .vertex img {
+    width: 160px;
+    padding: 2rem 0 0;
 }
 
 .subscribe {
@@ -630,6 +637,9 @@ footer {
 }
 
 @media (max-width: 576px) {
+    .logo {
+        width: 280px;
+    }
     .hero-left {
         padding-left: 0;
     }
